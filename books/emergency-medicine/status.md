@@ -7,10 +7,10 @@ Created: 2026-10-28
 Last updated: 2026-10-28
 
 ## Current stage
-BRIEF (awaiting owner approval)
+MARKET RESEARCH
 
 ## Pipeline checklist
-- [ ] 0. Brief + CONFIG approved
+- [x] 0. Brief + CONFIG approved (2026-10-28)
 - [ ] 1. Market research done (verdict: ___) and approved by the owner
 - [ ] 2. Title gate passed (trademark screening, subtitle chosen)
 - [ ] 3. Architecture lock approved (outline, style guide, book bible, terminology, boundary map, verification targets)

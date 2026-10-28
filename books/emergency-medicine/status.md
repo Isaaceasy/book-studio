@@ -39,3 +39,5 @@ MARKET RESEARCH
 - Author blank.
 
 ## Open issues / questions for the owner
+- 2026-10-28: market-research.md written with verdict CAUTION. Amazon pages returned HTTP 503 so no competitor/rank/price/review evidence; only KDP economics verified. Owner must decide how to complete Steps 2-5.
+- Color vs black-and-white interior changes royalty by ~$7-10 per copy (see market-research.md).

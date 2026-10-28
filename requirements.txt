@@ -1,0 +1,5 @@
+pyyaml
+pypdf
+python-docx
+# Pinned to match the Chromium build preinstalled in Claude Code cloud sessions
+playwright==1.63.0

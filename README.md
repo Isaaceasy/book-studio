@@ -20,7 +20,7 @@ Output formats: Word house style for engineering and medical (US Letter, 1 inch 
 4. Install **LibreOffice** from libreoffice.org (needed to make the PDF test copy and the contents page numbers for Word books). Include the Math component if the installer asks, so equations also show in the test PDF.
 5. In a terminal (PowerShell) in this folder run:
    ```
-   pip install pyyaml pypdf python-docx playwright
+   pip install -r requirements.txt
    python -m playwright install chromium
    python scripts/docxbuild.py check
    python scripts/bookbuild.py check

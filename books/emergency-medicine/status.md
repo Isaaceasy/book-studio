@@ -35,7 +35,7 @@ BRIEF (awaiting owner approval)
 (Record every default Claude chose and every owner instruction that changes the plan.)
 - Medical profile, en/US, 12 Parts, no dose figures, step-by-step procedures in scope (owner).
 - 50 figures, YES-ALL; owner wants HiggsField images.
-- Heading style pending owner's reference interior; 1 is a placeholder.
+- Heading style: owner supplied 5 reference photos (books/emergency-medicine/design-references/); choice pending, 1 is a placeholder.
 - Author blank.
 
 ## Open issues / questions for the owner

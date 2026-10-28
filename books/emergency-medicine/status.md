@@ -35,7 +35,7 @@ BRIEF (awaiting owner approval)
 (Record every default Claude chose and every owner instruction that changes the plan.)
 - Medical profile, en/US, 12 Parts, no dose figures, step-by-step procedures in scope (owner).
 - 50 figures, YES-ALL; owner wants HiggsField images.
-- Heading style: owner supplied 5 reference photos (books/emergency-medicine/design-references/); choice pending, 1 is a placeholder.
+- Interior design: owner chose FULL CHANGE (two columns, sans subheads, new fonts, edge tabs, icon callouts) based on 5 reference photos in design-references/; Claude picks the lead look (crimson accent, see README there); built and shown as a sample at Stage 4 (/design-interior), which also updates docxbuild.py and the house-style rules for this book.
 - Author blank.
 
 ## Open issues / questions for the owner

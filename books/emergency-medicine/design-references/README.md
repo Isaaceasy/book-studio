@@ -18,5 +18,10 @@ Photos of existing textbooks, kept ONLY as visual style references. Nothing from
 - Coloured tabs along the outer page edge marking each Part.
 - Two-column text (refs 1, 2, 4).
 
-## Decisions (see status.md)
-Pending owner choice on which reference to follow and how to reconcile with the Word house style (US Letter, Times New Roman 12 pt, single column).
+## Decisions (owner, 2026-10-28)
+- Owner chose a FULL CHANGE of the Word interior: two-column text, sans-serif subheadings, new fonts, coloured edge tabs, icon callouts. The standard house style (single column, Times New Roman 12 pt, drop caps) does NOT apply to this book once the new design is approved.
+- Owner asked Claude to study all five references and pick the best look.
+- Claude's pick (to be shown as a sample in /design-interior for approval): crimson accent (suits emergency medicine) with the ref4 solid heading block and summary box, ref2 callout system (Quick Check review questions, shaded clinical boxes, bold-number italic-title captions, running header), ref3 tinted table headers and thin-rule captions, and one coloured edge tab per Part.
+- Fonts, sizes and exact colours are set at Stage 4, using fonts that embed and render in both Word and LibreOffice.
+- Implementation is deferred to Stage 4 (/design-interior): it needs a book-specific house-style profile and changes to scripts/docxbuild.py (two sections/columns, edge tabs, callout styles, revised automatic checks). Existing house-style checks stay for any other book.
+- Still required by Amazon/standing rules: no hyperlinks, no copied figures or text from the reference books, AI image disclosure.

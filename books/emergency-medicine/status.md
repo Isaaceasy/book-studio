@@ -37,6 +37,7 @@ MARKET RESEARCH
 - 50 figures, YES-ALL; owner wants HiggsField images.
 - Interior design: owner chose FULL CHANGE (two columns, sans subheads, new fonts, edge tabs, icon callouts) based on 5 reference photos in design-references/; Claude picks the lead look (crimson accent, see README there); built and shown as a sample at Stage 4 (/design-interior), which also updates docxbuild.py and the house-style rules for this book.
 - Author blank.
+- Interior ink: STANDARD COLOR (owner, 2026-10-28). Unit economics in market-research.md must be judged on standard color; re-run market research with live Amazon access.
 
 ## Open issues / questions for the owner
 - 2026-10-28: market-research.md written with verdict CAUTION. Amazon pages returned HTTP 503 so no competitor/rank/price/review evidence; only KDP economics verified. Owner must decide how to complete Steps 2-5.

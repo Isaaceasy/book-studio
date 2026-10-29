@@ -5,3 +5,6 @@ Stage 4 design sample built and inspected; awaiting owner approval before /write
 
 ## Part 1 built (2026-10-29)
 Part 1 written, fact-checked (2 rounds), compliance (2 rounds, fixes applied, round 3 not run), edited, figures done, preview built. Part 2 drafted (5,500 words, figures F5-F8 made); fact-check, compliance and audit of Part 2 running. Open: Part 1 NEEDS-HUMAN clinician rows; Part 1 layout has gaps (to tune at assembly).
+
+## Part 2 built (2026-10-29)
+Part 2 fact-check, compliance (round 1), audit applied; preview built. Parts 3 to 6 drafted with figures; fact-check (4 agents) and audits (2 agents) running; compliance for Parts 3 to 6 to run after corrections. Front matter and back matter (copyright, how-to-use, abbreviations, glossary) written; assembly script next.

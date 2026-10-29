@@ -146,3 +146,9 @@ hr { margin: 1em 0; }
 /* Review questions: stem and lettered options (answer key is in Appendix A) */
 .mcq p { text-align: left; font-size: 9.6pt; line-height: 1.4; margin: 0 0 0.7em 0; break-inside: avoid; }
 .mcq p strong { font-family: var(--heading-font); color: var(--accent-deep); }
+/* Review questions as native nested lists: number discs for stems, plain A) letters for options */
+.mcq ol { margin: 0 0 0.3em 0; }
+.mcq > ol > li { margin-bottom: 0.7em; font-size: 9.6pt; line-height: 1.4; }
+.mcq ol ol { margin: 0.3em 0 0 0; }
+.mcq ol ol > li { padding-left: 1.5em; margin-bottom: 0.15em; }
+.mcq ol ol > li::before { content: counter(step, upper-alpha) ")"; background: none; color: var(--accent-deep); width: auto; height: auto; font-size: 9pt; line-height: 1.4; border-radius: 0; text-align: left; top: 0; }

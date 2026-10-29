@@ -158,8 +158,12 @@ def md_to_pdf(md: Path, out: Path, book_dir: Path, cfg: dict, root: Path, toc=Fa
         # Part openers must start on a right-hand (odd) page. Chromium ignores
         # break-before: right, so pass 1 finds openers that landed on a left page
         # and the HTML gets an empty page inserted before them (repeat until stable).
+        # A second pass floats figures: when a figure was pushed to the top of a page and
+        # the page before it is less than 72 percent full, the figure (with its pointer
+        # line) moves down past the next paragraph, so text fills the gap.
         from pypdf import PdfReader
-        for _ in range(4):
+        float_moves = {}
+        for _ in range(40):
             render()
             if not cfg.get("openers_on_right"):
                 break
@@ -178,14 +182,82 @@ def md_to_pdf(md: Path, out: Path, book_dir: Path, cfg: dict, root: Path, toc=Fa
                     text = text[:m.start()] + '<div class="blankpage">&nbsp;</div>' + text[m.start():]
                     changed = True
                     break  # re-render: later page numbers shift
-            if not changed:
-                break
-            html.write_text(text, encoding="utf-8")
+            if changed:
+                html.write_text(text, encoding="utf-8")
+                continue
+            if cfg.get("float_figures"):
+                new_text = float_figures(text, out, pages, float_moves)
+                if new_text != text:
+                    html.write_text(new_text, encoding="utf-8")
+                    continue
+            break
         if cfg.get("page_decor"):
             sys.path.insert(0, str(Path(__file__).resolve().parent))
             from pagedeco import decorate
             decorate(out, cfg)
 
+
+
+def page_fills(pdf: Path):
+    """Share of the text area used on each page (0 to 1), from word positions."""
+    r = subprocess.run(["pdftotext", "-bbox", str(pdf), "-"], capture_output=True, text=True)
+    fills, h, lo, hi = [], 576.0, 0.0, 0.0
+    for line in r.stdout.splitlines():
+        m = re.match(r'\s*<page width="([\d.]+)" height="([\d.]+)"', line)
+        if m:
+            if fills or lo or hi:
+                fills.append(hi)
+            h = float(m.group(2)); hi = 0.0; lo = 1.0
+            continue
+        w = re.match(r'\s*<word xMin="[\d.]+" yMin="([\d.]+)" xMax="[\d.]+" yMax="([\d.]+)"', line)
+        if w:
+            y0, y1 = float(w.group(1)), float(w.group(2))
+            if y0 > 0.07 * h and y1 < 0.93 * h:
+                hi = max(hi, (y1 - 0.07 * h) / (0.86 * h))
+    fills.append(hi)
+    return fills
+
+
+def float_figures(text: str, pdf: Path, pages, moves):
+    """Move a figure (and its pointer paragraph) down one block when it left a gap."""
+    import lxml.html as LH
+    fills = page_fills(pdf)
+    doc = LH.fromstring(text)
+    changed = False
+    for fig in doc.iter("figure"):
+        cap = fig.find(".//figcaption")
+        if cap is None:
+            continue
+        mm = re.match(r"\s*Figure\s+(\d+)\.", cap.text_content())
+        if not mm:
+            continue
+        n = mm.group(1)
+        key = norm(f"Figure {n}.")
+        k = next((i for i, t in enumerate(pages) if t.startswith(key)), None)
+        if k is None or k == 0 or moves.get(n, 0) >= 6:
+            continue
+        if fills[k - 1] >= 0.72:
+            continue
+        nxt = fig.getnext()
+        if nxt is None or nxt.tag not in ("p", "div", "table") or (nxt.tag == "div" and "procedure" in (nxt.get("class") or "")):
+            continue
+        prev = fig.getprevious()
+        group = [fig]
+        if prev is not None and prev.tag == "p" and re.match(r"\s*Figure\s+" + n + r"\s", prev.text_content()):
+            group = [prev, fig]
+        anchor = nxt
+        for el in group:
+            el.getparent().remove(el)
+        parent = anchor.getparent()
+        idx = parent.index(anchor) + 1
+        for j, el in enumerate(group):
+            parent.insert(idx + j, el)
+        moves[n] = moves.get(n, 0) + 1
+        changed = True
+        break  # one move per render keeps later pages predictable
+    if not changed:
+        return text
+    return "<!DOCTYPE html>\n" + LH.tostring(doc, encoding="unicode")
 
 def pdf_pages(pdf: Path) -> int:
     from pypdf import PdfReader

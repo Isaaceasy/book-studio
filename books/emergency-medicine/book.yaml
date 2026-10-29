@@ -59,3 +59,4 @@ part_titles:
   - "Special Populations, Behavioral Emergencies and Safety"
 reference_openers: ["Appendix A", "Appendix B", "Appendix C", "Glossary", "Index"]
 openers_on_right: true   # bookbuild.py inserts blank pages so Part openers are right-hand pages
+float_figures: true

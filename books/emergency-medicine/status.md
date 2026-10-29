@@ -20,9 +20,9 @@ Author (owner, 2026-10-29): Mark Gerald Simon (book.yaml author). No credentials
 - [x] 3. Architecture lock approved by the owner 2026-10-29 (6 Parts, 25 figures; outline.md, style-guide.md, book-bible.md locked; no silent changes from now on)
 - [x] 3b. Run-mode question answered 2026-10-29: AUTONOMOUS (starts after /design-interior is approved). Settings collected: image mode YES-ALL (HiggsField for anatomy and illustrations, SVG for flowcharts); no medicine doses; author Mark Gerald Simon; dedication and acknowledgements OMITTED; delivery = per-Part preview PDF plus final book. Still never replaced: fact-check, compliance, clinician clearance (file stays DRAFT_FOR_REVIEW).
 - [x] 4. Design system approved by the owner 2026-10-29 (single-column body, not two columns throughout; body size reduced from 10.5 to 10 pt on the owner's question)
-- [ ] 5. Chapters (see table)
-- [ ] 6. Final assembly checked
-- [ ] 7. Clinical / technical clearance (medical, engineering) recorded or file labelled DRAFT_FOR_REVIEW
+- [x] 5. Chapters 1 to 6 written, fact-checked, compliance-reviewed (round 1), audited, illustrated and previewed 2026-10-29 (all DRAFT_FOR_REVIEW; clinician items open)
+- [~] 6. Final assembly built 2026-10-29 (181 pages, final/); whole-book compliance and back-matter fact-check running
+- [~] 7. Clinical clearance: pack prepared (final/clinical-clearance-pack.docx); clearance NOT recorded; file labelled DRAFT_FOR_REVIEW
 - [ ] 8. KDP metadata (description + 7 keywords) done
 - [ ] 9. KDP upload guide delivered
 
@@ -31,11 +31,10 @@ Author (owner, 2026-10-29): Mark Gerald Simon (book.yaml author). No credentials
 |---|-------|-------|---------|------------------|-----------------|---------|--------------|----------|
 | 1 | The Emergency Approach: Safety, Triage and Assessment | about 5,600 (25 preview pages) | 4 (3 SVG, 1 HiggsField) | Round 1 and 2 done; all text corrections applied; clinician rows NEEDS-HUMAN open (verification-log P1) | Round 2 REVISE items applied; round 3 re-check not run | Audited, all required changes applied | previews/ch01.pdf (2026-10-29) | DRAFT_FOR_REVIEW (autonomous) |
 | 2 | Airway and Breathing Emergencies | about 5,300 (23 preview pages) | 4 (1 SVG, 3 HiggsField) | Done (P2-001 to 153); corrections applied; clinician rows NEEDS-HUMAN open | Round 1 REVISE items applied; round 2 to run with whole-book review | Audited; changes applied | previews/ch02.pdf | DRAFT_FOR_REVIEW (autonomous) |
-| 3 | Cardiac Emergencies and Resuscitation | 5,250 target | 4 | | | | | |
-| 4 | Trauma, Burns and Environmental Emergencies | 5,500 target | 6 | | | | | |
-| 5 | Medical Emergencies | 5,400 target | 4 | | | | | |
-| 6 | Special Populations, Behavioral Emergencies and Safety | 5,650 target | 3 | | | | | |
-
+| 3 | Cardiac Emergencies and Resuscitation | 5,140 net (4 figures) | 4 (2 SVG, 2 HiggsField) | Done (P3-001 to 130); corrections applied; clinician rows open | Round 1 fixes applied; whole-book round pending | Audited; changes applied | previews/ch03.pdf | DRAFT_FOR_REVIEW |
+| 4 | Trauma, Burns and Environmental Emergencies | 5,760 net | 6 (1 SVG, 5 HiggsField) | Done (P4-001 to 144); corrections applied; clinician rows open | Round 1 fixes applied; whole-book round pending | Audited; changes applied | previews/ch04.pdf | DRAFT_FOR_REVIEW |
+| 5 | Medical Emergencies | 5,300 net | 4 (2 SVG, 2 HiggsField) | Done (P5-001 to 143); corrections applied; clinician rows open | Round 1 fixes applied; whole-book round pending | Audited; changes applied | previews/ch05.pdf | DRAFT_FOR_REVIEW |
+| 6 | Special Populations, Behavioral Emergencies and Safety | 5,980 net | 3 (1 SVG, 2 HiggsField) | Done (P6-001 to 143); corrections applied; clinician rows open | Round 1 fixes applied; whole-book round pending | Audited; changes applied | previews/ch06.pdf | DRAFT_FOR_REVIEW |
 ## AI disclosure facts (for Amazon's question; keep exact)
 - Text: AI-generated (all Parts, illustrative cases, review questions, captions, glossary), reviewed and edited by the owner's process; to be disclosed to KDP as AI-generated (policy read 2026-10-29: AI-generated stays AI-generated after edits).
 - Images: AI-generated: 15 HiggsField images plus 10 SVG figures written by an AI tool (25 of 25 figures). Disclose to KDP. HiggsField terms read 2026-10-29 (see HIGGSFIELD TERMS OPENED entry); Part 1 Figure 3 is the first generated image (see FIGURE RECORD entry).

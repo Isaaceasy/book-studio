@@ -8,3 +8,6 @@ Part 1 written, fact-checked (2 rounds), compliance (2 rounds, fixes applied, ro
 
 ## Part 2 built (2026-10-29)
 Part 2 fact-check, compliance (round 1), audit applied; preview built. Parts 3 to 6 drafted with figures; fact-check (4 agents) and audits (2 agents) running; compliance for Parts 3 to 6 to run after corrections. Front matter and back matter (copyright, how-to-use, abbreviations, glossary) written; assembly script next.
+
+## 2026-10-29 late
+All six Parts written, verified (ledgers P1 to P6), compliance round 1, audited, previews built. Assembly built (181 pages): final/emergency-nursing-fundamentals-interior_DRAFT_FOR_REVIEW.pdf and build-report.md. Clearance pack: final/clinical-clearance-pack.docx (306 rows, 25 figures). Running: back-matter fact-check, whole-book compliance. Next: apply their fixes, rebuild (8 minutes), re-run clearance pack, then Stage 8 /kdp-metadata and Stage 9 upload guide after owner approval.

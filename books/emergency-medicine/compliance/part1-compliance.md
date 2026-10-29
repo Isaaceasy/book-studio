@@ -84,3 +84,62 @@ NOT opened or not found (dependent checks marked UNVERIFIED): KDP Terms and Cond
 No BLOCK. Nothing here needs a plan change. Next action: apply Fixes 1 to 14 to ch01.md, the answer key, ch01-fig2.svg and ch01-fig3.svg (the writer, not this reviewer), rebuild the preview, update status.md, then re-run this review (round 2 of a maximum of 3). Even after PASS the file stays DRAFT_FOR_REVIEW until the open items in Fix 15 are cleared.
 
 This is a good-faith review, not legal advice or a guarantee of Amazon's acceptance.
+
+---
+
+# ROUND 2 (2026-10-29)
+
+Reviewer: independent compliance-reviewer pass. ch01.md was NOT edited. Files re-read: chapters/ch01.md (saved 12:27:51), back/answer-keys-part1.md, status.md, images/ch01-fig2.svg (Figure 1), ch01-fig3.svg (embedded JPEG extracted and measured), previews/ch01.pdf (built 12:28:14, after the last ch01.md save, so not stale; 25 pages; rendered with pdftoppm, contact sheet of all pages plus pages 7, 15, 18, 19 viewed).
+
+## KDP pages opened this round (real opens through WebFetch)
+| Page | Result |
+|---|---|
+| KDP Terms and Conditions (kdp.amazon.com/terms-and-conditions redirects to a kdp-eu.amazon.com/agreement page) | OPENED via the redirect. Title "Kindle Direct Publishing Terms and Conditions", last updated October 21, 2026 (as returned by the fetch tool's summary; the full text was not read by me). Points returned: 5.1.2 content must comply with Program Policies and Amazon may modify or remove metadata and cover art; 5.8 publisher warrants it holds the rights and its content infringes no one; 5.1.3/5.1.5 Amazon decides what it accepts and may remove books. The summary says the T&C do not mention AI content (the AI rule lives in the Content Guidelines, opened in round 1). Nothing in the chapter conflicts. B1 T&C check: now VERIFIED at summary level only. |
+| Format Images in Your Book (G202169030) | OPENED. Print interior images: recommended minimum 300 DPI; below 200 DPI is classed as low resolution; insert at 100 percent and do not enlarge. |
+| Print Options (G201834180) | OPENED. Trim sizes and page-count ranges only; no image or margin rules (those are on "Set Trim Size, Bleed, and Margins", opened by the owner session per status.md, not re-opened by me). |
+Still not opened by me: the margin page, any medical-content page (none exists in the pages seen).
+
+## Round 1 fixes: closed or open
+| Fix | Status | Evidence |
+|---|---|---|
+| 1 pocket kit | CLOSED | vignette now "from her kit bag"; no "pocket" in the PDF text |
+| 2 neck injury / shaking | CLOSED | "speak to them loudly. If you can rule out a neck injury, tap ... do not shake the patient and keep the head and neck still" |
+| 3 movement exception | CLOSED | Safety box in 1.3 now allows moving to give life-saving care "as your protocol directs" |
+| 4 CPR first use | CLOSED | "call for help and start cardiopulmonary resuscitation (CPR)"; step 3 "call for help and begin CPR" |
+| 5 Figure 1 "move the patient up" | CLOSED | SVG now "consider moving the patient up if in a danger range"; text matches |
+| 6 wording near the published triage tool | CLOSED | Figure 1, 1.2 paragraph and table now use the reworded questions consistently. status.md still lacks the one-line note "generic principle" asked for (minor, see R2-3) |
+| 7 objective 4 | CLOSED | "recognize and report a worsening trend" |
+| 8 objective 2 and Q4 | CLOSED | objective 2 reworded; Q4 now the shock/blood-pressure question; key updated to C |
+| 9 repetition | PARTLY OPEN | (a) closed: the 1.5 "wait a short while" sentence is gone; (b) closed: Care Priorities rewritten as one paragraph without re-listing ABCDE; (d) closed: 1.3 Remember box is new wording; (c) OPEN: the 1.2 paragraph "The first question asks ..." still restates the three questions in full, so they appear in Figure 1, the table and the paragraph. "Check again" still appears in about six places (Remember box, step 9, Fig 2 caption, Priorities line, 1.5, Care Priorities); acceptable for a safety loop but trim one |
+| 10 rebuild, Fig 3, status | PARTLY OPEN | Rebuilt PDF current. Fig 3 raster is now 880 x 734 px, placed at about 266 ppi (pdfimages): above KDP's 200 ppi low-resolution line, just under the 300 ppi recommendation; label text about 8 pt printed; "Radial pulse" leader no longer crosses its label (page 18 viewed). Figure record now present (see below). Layout blanks still present (R2-1). status.md lines 41 and 71 still stale (R2-3). Alt text: Fig 3 has title and desc; Figs 1, 2, 4 have none; irrelevant to a print PDF, needed only if an ebook is made |
+| 11 answer pattern | CLOSED | key now B, D, A, C, D, A, C; Q5 options are Alert / Pain / Unresponsive / Voice; distractors plausible; answer-keys-part1.md matches all eight questions |
+| 12 stray medicines line | CLOSED | removed from 1.1 and 1.3 |
+| 13 undefined terms | CLOSED | "automated external defibrillator", "neck (cervical spine)", "capacity, meaning ..." all present |
+| 14 native numbered lists | CLOSED | PDF shows numbered question list; step discs native |
+| 15 open items | OPEN (cannot be cleared by a reviewer) | NEEDS-HUMAN ledger rows, clinician credential and clearance; file stays DRAFT_FOR_REVIEW |
+
+## Figure 3 AI-image record
+status.md line 74 (added after my first read of the file in this round) lists: tool HiggsField MCP, model gpt_image_2_5, date 2026-10-29, 3 variants at 0.25 credit, variant 1 chosen, the full prompt, labels added outside the image, disclose to KDP as AI-generated, clinician review pending. This closes the record requirement. One gap: no job or media ID is recorded (the earlier request said "prompt or job id"; the prompt suffices, an ID is advisable). Fig 3 content seen on page 18: faceless adult male, no logo, no text inside the raster, four markers plausible. The "Capillary refill / fingertip" label sits on the fingertip marker (dot touches the word "fingertip"); small, but move the label 6 to 8 px right.
+
+## Layout inspection of previews/ch01.pdf (25 pages)
+- Pages 6, 14 and 20 end with the lead-in line ("Figure 1 shows the sequence.", "Figure 2 shows the loop.", "Figure 4 shows the four parts.") and then about 40 percent blank space, because the figure does not fit and moves to the next page. Page 7 (Figure 1 only plus its caption) also ends at about 60 percent. Page 25 ends at 56 percent (acceptable, last page).
+- All figure text is readable at print size (about 8 pt); no clipped text; no stranded headings seen; Part opener page has no fault; tables inside margins.
+- Margin is cosmetic, but a reviewer would call four half-empty pages in 25 "padding or sloppy layout".
+
+## Customer-experience risks still open
+1. Four pages with about 40 percent white space and a lead-in line stranded at the page foot (R2-1).
+2. Triage questions stated three times in one entry (R2-2).
+3. status.md internal inconsistency could mislead the AI-disclosure answer (R2-3).
+
+## Remaining required fixes
+R2-1. Pagination. The figure lead-ins at the foot of pages 6, 14, 20 leave 40 percent blanks. Old: "Figure 1 shows the sequence." (before the figure) New: keep the sentence but build so the lead-in and figure stay together or the figure moves up: either shrink Figures 1, 2 and 4 about 15 percent (Figure 1 to roughly 55 percent of text height) or place each figure before the text paragraph that follows it. Rebuild and confirm no page ends above about 80 percent except the last page, the Part opener and a page before a forced break.
+R2-2. Repetition, finishing Fix 9(c). Old (1.2): "The first question asks whether the patient will die or be harmed within minutes without help, for example from an obstructed airway or a stopped heart. If yes, that patient is at the top level and you act at once. The second question asks whether the patient could worsen quickly, seems newly confused or drowsy, or is in severe pain. Such patients are very unwell and should not wait, even though no action needs to happen in the next few seconds. If neither applies, the remaining patients are sorted by how many separate tests or treatments they will probably need, such as laboratory tests, imaging or procedures." New: "Three questions, asked in order, do the sorting. The first finds the patient who needs action at once, for example from an obstructed airway or a stopped heart. The second finds the patient who should not wait even though nothing must happen in the next few seconds. Everyone else is sorted by how many separate tests or treatments, such as laboratory tests, imaging or procedures, they will probably need." Keep the vital-signs sentence that follows.
+R2-3. status.md bookkeeping. (a) Line 41, old: "HiggsField commercial-use terms: NOT yet recorded (to read live before any image is accepted)." New: "HiggsField terms read 2026-10-29 (see HIGGSFIELD TERMS OPENED entry); Part 1 Figure 3 is the first generated image (see FIGURE RECORD entry)." (b) Line 71, old: "no HiggsField image has been generated yet." New: "Part 1 Figure 3 has since been generated (see FIGURE RECORD entry)." (c) Add one line: "Triage text and Figure 1 describe a generic principle in original wording; no published tool is reproduced." (d) Add the HiggsField job or media ID for the chosen Fig 3 variant. (e) Fill the Chapters row 1 only after the final PASS.
+R2-4. Fig 3 label. Move "Capillary refill / fingertip" right so its text does not touch the fingertip marker. Optional: add title and desc to Figures 1, 2 and 4 if an ebook is ever made.
+R2-5. Image resolution. Fig 3 is about 266 ppi placed. KDP recommends 300; either accept (above the 200 ppi low-resolution line) and record that decision in status.md, or regenerate or upscale to about 1,000 px across the 3.3 in placement width... (3.3 in x 300 = about 990 px, so the current 880 px is only 11 percent short; accepting is reasonable).
+R2-6. Open and not clearable by me (carry forward): NEEDS-HUMAN ledger rows, clinician credential and clearance (Orville A. Corey named, no credential, no clearance), clinician review of all four figures (placement of carotid and radial markers, fingertip), KDP margin page re-check at final page count. The manuscript stays DRAFT_FOR_REVIEW and unpublishable.
+
+## ROUND 2 OVERALL VERDICT: REVISE (minor)
+No BLOCK. Every safety, trademark and promise fix from round 1 is closed. What remains is layout (four half-empty pages), one repetition block, stale bookkeeping in status.md and the unclearable human-review items. PASS cannot be given while checklist items B7 and the clinician-clearance items remain NEEDS-HUMAN; after R2-1 to R2-3 are applied, a round 3 should be a quick check and can return PASS for compliance with the clinician hold noted.
+
+This is a good-faith review, not legal advice or a guarantee of Amazon's acceptance.

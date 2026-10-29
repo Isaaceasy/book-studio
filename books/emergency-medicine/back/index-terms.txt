@@ -1,0 +1,99 @@
+# One term per line: heading | other words that also count as a mention
+Abdominal thrusts | abdominal thrust
+Abuse | neglect | interpersonal violence
+Acute coronary syndrome | ACS
+AED | automated external defibrillator | defibrillator
+Airway
+Altered mental status | confusion
+Anaphylaxis
+Angina
+Asthma
+AVPU
+Back blows | back blow
+Bag-valve-mask | BVM
+Birth, imminent | imminent birth | crowning
+Bleeding | hemorrhage
+Blood glucose | hypoglycemia
+Blood pressure
+Breathing rate | respiratory rate
+Burns | burn
+Capillary refill
+Cardiac arrest
+Chest compressions | compressions
+Chest pain
+Children | child | infant
+Choking
+Circulation
+Communication
+Concussion
+Consent
+COPD
+CPR
+De-escalation
+Defibrillation
+Dehydration
+Delirium
+Direct pressure
+Disability
+Documentation
+Dislocation
+Epiglottis
+Epinephrine | adrenaline
+Exposure
+First look
+Fracture | fractures
+Frostbite
+Glasgow Coma Scale | GCS
+Handover
+Head injury
+Heart attack | myocardial infarction
+Heart failure
+Heat exhaustion
+Heat stroke
+Hypothermia
+Hypoxia
+Jaw thrust
+Larynx
+Local protocol
+Mechanism of injury
+Medical direction
+Naloxone
+Non-rebreather mask
+Older adults | older adult
+Opioid overdose | opioid
+Oxygen
+Oxygen saturation | SpO2 | pulse oximeter
+Pelvis
+Pneumonia
+Poisoning | overdose
+Pregnancy | pregnant
+Primary survey
+Pulse
+Recovery position
+Reassessment
+Respiratory distress
+Respiratory failure
+Review questions
+Rhythm | rhythms
+Rule of nines
+Safety
+Scope of practice
+Scene safety
+Secondary survey
+Seizure | seizures
+Sepsis
+Shock
+Spinal motion restriction | spinal injury | spine
+Splint | splinting
+Standard precautions
+Stridor
+Stroke
+Suction
+Suicide
+Tourniquet
+Trachea
+Transient ischemic attack
+Trauma
+Triage
+Vital signs
+Wound packing | packing

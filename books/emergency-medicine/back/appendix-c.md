@@ -11,9 +11,17 @@ Table: Adult resting ranges (Entry 1.4)
 | Blood pressure | between 90/60 and 120/80 mm Hg |
 | Temperature | 97.7 to 99.1 degrees F (36.5 to 37.3 degrees C) |
 
-Table: Children's resting ranges (Entry 6.1)
+Table: Children's resting ranges, reference copy (Entry 6.1)
 
-CHILD_TABLE_PLACEHOLDER
+| Age | Breathing rate (breaths per minute) | Heart rate awake (beats per minute) |
+|:----|:------------------------------------|:------------------------------------|
+| Infant (1 month to 1 year) | 30 to 53 | 100 to 190 |
+| Toddler (1 to 2 years) | 22 to 37 | 98 to 140 |
+| Preschool (3 to 5 years) | 20 to 28 | 80 to 120 |
+| School age (6 to 11 years) | 18 to 25 | 75 to 118 |
+| Adolescent (12 to 15 years) | 12 to 20 | 60 to 100 |
+
+Sources differ slightly, and newborns in the first month have their own ranges; follow the values in your protocol.
 
 Table: Glasgow Coma Scale layout (Entry 1.3)
 

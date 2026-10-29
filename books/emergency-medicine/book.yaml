@@ -22,7 +22,7 @@ run_mode: "AUTONOMOUS"   # owner answered YES 2026-10-29; starts after /design-i
 
 # ---- Word house style (docx output) ----
 heading_style: 1 # 1 Black Banner, 2 Rule Line, 3 Numbered Block, 4 Centered Classic, 5 Shaded Bar, 6 Underline Accent, 7 Minimal Modern
-accent: "1F4E79"
+accent: "A31C2C"   # crimson, chosen at /design-interior 2026-10-29
 chapter_word_floor: 5000     # SHORT-BOOK SCOPE LOCK (owner, 2026-10-29): 6 Parts, about 5,000 words each, excluding tables
 chapter_word_ceiling: 6000
 image_count: 25 # owner decision 2026-10-29 (was 50): total approved figures, about 4 per Part
@@ -33,15 +33,29 @@ copyright_text: ""            # optional custom rights sentence
 # ---- KDP print PDF (kdp-pdf output) ----
 trim_width_in: 5.0        # smallest US KDP trim (read live 2026-10-29)
 trim_height_in: 8.0
-margin_top_in: 0.6        # provisional; verify against KDP margin table at /design-interior
-margin_bottom_in: 0.6
-margin_inside_in: 0.6
-margin_outside_in: 0.45
+margin_top_in: 0.65
+margin_bottom_in: 0.7
+margin_inside_in: 0.65      # KDP minimum 0.5 in for 151-300 pages (read live 2026-10-29)
+margin_outside_in: 0.6       # KDP minimum 0.25 in without bleed; edge tabs sit 0.27 in from trim
 color_interior: true
 
 palette:
-  accent: "#1f4e79"
-  accent_soft: "#e8f0f8"
+  accent: "#a31c2c"
+  accent_soft: "#fbeced"
 fonts:
-  body: "Georgia"
-  heading: "Arial"
+  body: "Caladea"
+  heading: "Inter"
+
+# ---- page furniture (scripts/pagedeco.py): running headers, page numbers, Part edge tabs ----
+page_decor: true
+running_title: "Emergency Nursing Fundamentals"
+part_short_names: {1: "The Emergency Approach", 2: "Airway and Breathing", 3: "Cardiac and Resuscitation", 4: "Trauma, Burns, Environment", 5: "Medical Emergencies", 6: "Special Populations and Safety"}
+part_titles:
+  - "The Emergency Approach: Safety, Triage and Assessment"
+  - "Airway and Breathing Emergencies"
+  - "Cardiac Emergencies and Resuscitation"
+  - "Trauma, Burns and Environmental Emergencies"
+  - "Medical Emergencies"
+  - "Special Populations, Behavioral Emergencies and Safety"
+reference_openers: ["Appendix A", "Appendix B", "Appendix C", "Glossary", "Index"]
+openers_on_right: true   # bookbuild.py inserts blank pages so Part openers are right-hand pages

@@ -143,15 +143,48 @@ def md_to_pdf(md: Path, out: Path, book_dir: Path, cfg: dict, root: Path, toc=Fa
 
         footer = ('<div style="font-size:8px;width:100%;text-align:center;">'
                   '<span class="pageNumber"></span></div>')
-        with sync_playwright() as p:
-            browser = p.chromium.launch()
-            page = browser.new_page()
-            page.goto(html.as_uri())
-            page.wait_for_load_state("networkidle")
-            page.pdf(path=str(out), prefer_css_page_size=True, print_background=True,
-                     display_header_footer=True, header_template="<div></div>",
-                     footer_template=footer)
-            browser.close()
+
+        def render():
+            with sync_playwright() as p:
+                browser = p.chromium.launch()
+                page = browser.new_page()
+                page.goto(html.as_uri())
+                page.wait_for_load_state("networkidle")
+                page.pdf(path=str(out), prefer_css_page_size=True, print_background=True,
+                         display_header_footer=not cfg.get("page_decor"), header_template="<div></div>",
+                         footer_template=footer)
+                browser.close()
+
+        # Part openers must start on a right-hand (odd) page. Chromium ignores
+        # break-before: right, so pass 1 finds openers that landed on a left page
+        # and the HTML gets an empty page inserted before them (repeat until stable).
+        from pypdf import PdfReader
+        for _ in range(4):
+            render()
+            if not cfg.get("openers_on_right"):
+                break
+            text = html.read_text(encoding="utf-8")
+            pages = [norm(pg.extract_text() or "") for pg in PdfReader(str(out)).pages]
+            changed, cur, pos = False, 0, 0
+            for m in list(re.finditer(r"<h1\b[^>]*>(.*?)</h1>", text, flags=re.S)):
+                if 'class="titlemark"' in m.group(0) or "titlemark" in m.group(0):
+                    continue
+                key = norm(re.sub(r"<[^>]+>", "", m.group(1)))[:30]
+                hit = next((i for i in range(cur, len(pages)) if key and pages[i].startswith(key)), None)
+                if hit is None:
+                    continue
+                cur = hit
+                if hit % 2 == 1 and "blankpage" not in text[max(0, m.start() - 40):m.start()]:
+                    text = text[:m.start()] + '<div class="blankpage">&nbsp;</div>' + text[m.start():]
+                    changed = True
+                    break  # re-render: later page numbers shift
+            if not changed:
+                break
+            html.write_text(text, encoding="utf-8")
+        if cfg.get("page_decor"):
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            from pagedeco import decorate
+            decorate(out, cfg)
 
 
 def pdf_pages(pdf: Path) -> int:

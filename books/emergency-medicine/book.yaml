@@ -1,42 +1,42 @@
 # Book settings read by scripts/bookbuild.py (general / KDP PDF) and scripts/docxbuild.py (Word house style).
 # Created by /new-book and edited by later stages. Keep numbers unquoted.
 
-title: "Emergency Medicine (working title)" 
-subtitle: ""
-author: ""              # pen name printed on the book; never invent
+title: "Emergency Nursing Fundamentals"
+subtitle: "A Compact Illustrated Guide to Rapid Assessment, Priorities and Procedures for Nursing, Paramedic, EMT and Allied Health Students"
+author: "Mark Gerald Simon"            # pen name printed on the book; never invent
 publisher: ""           # leave blank unless supplied by the owner
 language: "en"          # en, fr, de, es
 region: "US" # e.g. US, UK, FR, DE, ES, MX (controls number format, standards, marketplace)
 copyright_year: 2026
 isbn: ""                # blank = KDP-assigned ISBN
-publication_date: "2026-10-28" # date against which time-sensitive facts are checked (YYYY-MM-DD)
+publication_date: "2026-10-29" # date against which time-sensitive facts are checked (YYYY-MM-DD)
 
 # engineering | medical | general
 profile: "medical" 
 # docx = Word house style (US Letter, 1 in margins, Times New Roman 12). kdp-pdf = KDP print PDF.
 # engineering and medical default to docx; general defaults to kdp-pdf.
-output: "docx" 
+output: "kdp-pdf" # owner override 2026-10-29: compact 5 x 8 in book (was docx, US Letter)
 
 # STANDARD = approve every chapter. AUTONOMOUS = owner said YES at the end of /outline-book.
-run_mode: "STANDARD"
+run_mode: "AUTONOMOUS"   # owner answered YES 2026-10-29; starts after /design-interior approval; never replaces fact-check, compliance or clinician clearance
 
 # ---- Word house style (docx output) ----
 heading_style: 1 # 1 Black Banner, 2 Rule Line, 3 Numbered Block, 4 Centered Classic, 5 Shaded Bar, 6 Underline Accent, 7 Minimal Modern
 accent: "1F4E79"
-chapter_word_floor: 10000     # words per chapter or Part, excluding tables (engineering, medical)
-chapter_word_ceiling: 12000
-image_count: 50 # total approved figures in the book (0 = none)
-image_source: "hybrid"   # hybrid = SVG where drawable, HiggsField where needed (owner decision)
+chapter_word_floor: 5000     # SHORT-BOOK SCOPE LOCK (owner, 2026-10-29): 6 Parts, about 5,000 words each, excluding tables
+chapter_word_ceiling: 6000
+image_count: 25 # owner decision 2026-10-29 (was 50): total approved figures, about 4 per Part
+image_source: "hybrid"   # owner 2026-10-29: ALL anatomical images and illustrations via HiggsField; SVG only for non-anatomical diagrams, algorithms and flowcharts (to confirm)
 image_mode: "YES-ALL" # ASK | YES-ALL | NO-ALL | EXTERNAL-ALL | MIXED
 copyright_text: ""            # optional custom rights sentence
 
 # ---- KDP print PDF (kdp-pdf output) ----
-trim_width_in: 6.0
-trim_height_in: 9.0
-margin_top_in: 0.75
-margin_bottom_in: 0.75
-margin_inside_in: 0.75
-margin_outside_in: 0.6
+trim_width_in: 5.0        # smallest US KDP trim (read live 2026-10-29)
+trim_height_in: 8.0
+margin_top_in: 0.6        # provisional; verify against KDP margin table at /design-interior
+margin_bottom_in: 0.6
+margin_inside_in: 0.6
+margin_outside_in: 0.45
 color_interior: true
 
 palette:

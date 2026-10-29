@@ -4,17 +4,21 @@ Slug: emergency-medicine
 Profile: medical
 Run mode: STANDARD
 Created: 2026-10-28
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 
 ## Current stage
-MARKET RESEARCH
+ARCHITECTURE awaiting owner approval (outline.md, style-guide.md, book-bible.md written 2026-10-29; compliance rounds 1 to 3 complete, no BLOCK, bookkeeping fixes applied)
+
+## Clinical clearance record (CLAUDE.md section 9; fill when done)
+Clinician named by the owner (2026-10-29): Orville A. Corey. Credential and licence: NOT SUPPLIED (owner to provide; never invented). Date cleared: ____ | Scope cleared: ____ | Status: NAMED, NO CLEARANCE YET (manuscript is DRAFT_FOR_REVIEW; no "clinician-reviewed" wording anywhere until clearance is recorded here).
+Author (owner, 2026-10-29): Mark Gerald Simon (book.yaml author). No credentials claimed on any page unless the owner supplies and confirms them.
 
 ## Pipeline checklist
 - [x] 0. Brief + CONFIG approved (2026-10-28)
-- [ ] 1. Market research done (verdict: ___) and approved by the owner
-- [ ] 2. Title gate passed (trademark screening, subtitle chosen)
-- [ ] 3. Architecture lock approved (outline, style guide, book bible, terminology, boundary map, verification targets)
-- [ ] 3b. Run-mode question answered (STANDARD / AUTONOMOUS)
+- [x] 1. Market research done (verdict: CAUTION) and approved by the owner (2026-10-29), then REVISED and re-approved by the owner on 2026-10-29 for the compact plan (market-research.md section 9b: 6 Parts, 5 x 8 in, color, about $19.99-$24.99, verdict CAUTION improved); the earlier 12-Part, Letter, $39.99-$49.99 plan is withdrawn
+- [x] 2. Title gate passed 2026-10-29 by the owner: "Emergency Nursing Fundamentals: A Compact Illustrated Guide to Rapid Assessment, Priorities and Procedures for Nursing, Paramedic, EMT and Allied Health Students". Open item: cover match (no cover yet). Risk LOW to MEDIUM (see decisions).
+- [x] 3. Architecture lock approved by the owner 2026-10-29 (6 Parts, 25 figures; outline.md, style-guide.md, book-bible.md locked; no silent changes from now on)
+- [x] 3b. Run-mode question answered 2026-10-29: AUTONOMOUS (starts after /design-interior is approved). Settings collected: image mode YES-ALL (HiggsField for anatomy and illustrations, SVG for flowcharts); no medicine doses; author Mark Gerald Simon; dedication and acknowledgements OMITTED; delivery = per-Part preview PDF plus final book. Still never replaced: fact-check, compliance, clinician clearance (file stays DRAFT_FOR_REVIEW).
 - [ ] 4. Design system approved
 - [ ] 5. Chapters (see table)
 - [ ] 6. Final assembly checked
@@ -25,20 +29,40 @@ MARKET RESEARCH
 ## Chapters
 | # | Title | Words | Figures | Fact-check clear | Compliance PASS | Audited | Preview sent | Approved |
 |---|-------|-------|---------|------------------|-----------------|---------|--------------|----------|
+| 1 | The Emergency Approach: Safety, Triage and Assessment | 5,400 target | 4 | | | | | |
+| 2 | Airway and Breathing Emergencies | 5,500 target | 4 | | | | | |
+| 3 | Cardiac Emergencies and Resuscitation | 5,250 target | 4 | | | | | |
+| 4 | Trauma, Burns and Environmental Emergencies | 5,500 target | 6 | | | | | |
+| 5 | Medical Emergencies | 5,400 target | 4 | | | | | |
+| 6 | Special Populations, Behavioral Emergencies and Safety | 5,650 target | 3 | | | | | |
 
 ## AI disclosure facts (for Amazon's question; keep exact)
-- Text: 
-- Images: 
-- Translation: 
+- Text: AI-generated (all Parts, illustrative cases, review questions, captions, glossary), reviewed and edited by the owner's process; to be disclosed to KDP as AI-generated (policy read 2026-10-29: AI-generated stays AI-generated after edits).
+- Images: AI-generated: 15 HiggsField images plus 10 SVG figures written by an AI tool (25 of 25 figures). Disclose to KDP. HiggsField commercial-use terms: NOT yet recorded (to read live before any image is accepted).
+- Translation: none.
 
 ## Decisions and assumptions
 (Record every default Claude chose and every owner instruction that changes the plan.)
+NOTE 2026-10-29: the bullets that begin "Medical profile, en/US, 12 Parts", "50 figures, YES-ALL", "Interior design: owner chose FULL CHANGE" and "Interior ink: STANDARD COLOR" describe the ORIGINAL plan (12 Parts, 50 figures, Word Letter, two-column design) and are SUPERSEDED by the dated 2026-10-29 entries (6 Parts, 25 figures, KDP PDF 5 x 8 in, title "Emergency Nursing Fundamentals", standard color kept). No qualified clinician has been named to clear the clinical items: the manuscript stays DRAFT_FOR_REVIEW until the owner names one and clearance is recorded. Design references in design-references/ must be re-applied at 5 x 8 in at /design-interior.
+- 2026-10-29 DEFAULTS CLAUDE CHOSE at the architecture stage (owner may change): (a) "no dose figures" read as NO MEDICINE doses/frequency/duration/route; verified procedural parameters (CPR rate, depth, ratio; tourniquet and cooling timings; glucose thresholds) allowed with logged sources and clinician clearance; (b) closed drug-name list: epinephrine, naloxone, albuterol, aspirin, oral glucose, oxygen; (c) US drug names first (epinephrine, albuterol), international name in parentheses; the medical profile's INN-first default is overridden for the US region; (d) Part 6 enlarged: child entry split into two, responder wellbeing folded into 1.1; (e) the manuscript does not name ESI, START, ENA, AHA or any course; (f) AI-generated figures: all 25 to be sent for clinician review (not yet arranged); failed figures redrawn as SVG with owner approval; (g) accent colour and palette decided at /design-interior (book.yaml accent is still the old blue).
+- 2026-10-29 HIGGSFIELD TERMS (web search results only, official page not opened): its help center says users own outputs and may use them commercially with no separate licence; a third-party article disputes how broad the licence it takes over your content is; its terms changed again in 2026. To do: open the current Terms of Use on the official site and record the result before any image is accepted; images are publicly visible by default on some plans, so check privacy settings for unpublished book figures.
+- 2026-10-29 OPEN: publisher (owner), clinician credential and licence (owner), HiggsField commercial-use terms (see above), remaining KDP policy pages to open in compliance round 2 (content guidelines, metadata, low-content, print requirements, medical content), title string re-review against the final cover.
 - Medical profile, en/US, 12 Parts, no dose figures, step-by-step procedures in scope (owner).
 - 50 figures, YES-ALL; owner wants HiggsField images.
 - Interior design: owner chose FULL CHANGE (two columns, sans subheads, new fonts, edge tabs, icon callouts) based on 5 reference photos in design-references/; Claude picks the lead look (crimson accent, see README there); built and shown as a sample at Stage 4 (/design-interior), which also updates docxbuild.py and the house-style rules for this book.
 - Author blank.
+- 2026-10-29 OWNER USPTO SEARCH (screenshots): "EMERGENCY ESSENTIALS" is a LIVE REGISTERED mark (Emergency Essentials Holdings, LLC, Utah; incl. class 016 educational books and publications, class 009); also live "ESSENTIALS OF EMERGENCY MEDICINE" (class 041) and several live Emergency Nurses Association "Emergency Nursing ..." marks. Risk for "Emergency Nursing Essentials" raised to MEDIUM-HIGH; owner chose to DROP "Essentials".
+- 2026-10-29 NEW TITLE (owner choice of Claude's recommendation): "Emergency Nursing Fundamentals" + the all-groups subtitle (about 154 chars). Amazon check: no book with this exact title; typed-box autocomplete for "emergency nursing f" shows a competing "Emergency Nursing Foundations: ..." title (near-miss) and nothing for "fundamentals". USPTO search for "fundamentals" / "emergency nursing fundamentals" still to be run by the owner. [SUPERSEDED: the owner supplied the USPTO files and the title gate was PASSED 2026-10-29; full string is 161 characters.]
+- 2026-10-29 OWNER USPTO SEARCH 2 (screenshots, "Emergency Nursing Fundamentals", 4,025 results, about 54 seen): no mark for the full phrase seen. Live related marks seen: JOURNAL OF EMERGENCY NURSING and EMERGENCY NURSING PEDIATRIC COURSE (Emergency Nurses Association); many "FUNDAMENTALS" marks, all for unrelated goods (the class 016 ones seen were dead); one live FUNDAMENTALS in class 010 (health care apparel) and one live in class 041 (workshops). Risk now LOW to MEDIUM, still UNVERIFIED because only the first screens were seen and this is not legal advice.
+- 2026-10-29 FIGURES (owner): 25 figures total (about 4 per Part). ALL anatomical images and illustrations are to be generated with HiggsField (AI). Assumption to confirm: SVG only for non-anatomical flowcharts, algorithms and tables. Rules for outline/image stages: labels and text added outside the AI image (AI lettering is unreliable); clinician review of every anatomical figure; no realistic clinical photos; legible at 5 x 8 in; AI-generated images recorded under AI disclosure facts for the KDP question. If final count falls under about 12, drop "Illustrated" from the subtitle.
+- 2026-10-29 OWNER USPTO FILES (11 saved result pages, live marks only, read by script): pages for "emergency nursing" (about 826 live marks; 9 pages read) show NO live mark equal to "EMERGENCY NURSING" or "EMERGENCY NURSING FUNDAMENTALS". Related live marks all owned by the Emergency Nurses Association or its certification body: EMERGENCY NURSING TRIAGE EDUCATION PROGRAM (classes 9, 41), EMERGENCY NURSING PEDIATRIC COURSE (16, 41), JOURNAL OF EMERGENCY NURSING (9, 16), AEN ACADEMY OF EMERGENCY NURSING (41), BCEN (9, 16, 42). Pages for "fundamental" (81 live marks read): none equal to "FUNDAMENTALS"; nearest are FUNDAMENTAL CRITICAL CARE SUPPORT (Society of Critical Care Medicine, class 41), FUNDAMENTAL MILESTONES (16, 41, skills curricula), FUNDAMENTAL LABOR STRATEGIES (16). Reading: no identical or near-identical live mark; the only exposure is the "Emergency Nursing" prefix being strongly associated with the Emergency Nurses Association. Mitigation: never use their names, logos or course names; add a plain "not affiliated with or endorsed by" line in the front matter. Risk LOW to MEDIUM. Not legal advice; lists may be incomplete and USPTO only (no state or common-law marks).
+- 2026-10-29 OWNER CHOSE: 5 x 8 in KDP print, wording "Compact Guide" (not "Pocket Guide"), output kdp-pdf (override of Word Letter house style; book.yaml updated: trim 5 x 8, margins provisional). Subtitle now: "A Compact Illustrated Guide to Rapid Assessment, Priorities and Procedures for Nursing, Paramedic, EMT and Allied Health Students" (161 chars with title). market-research.md section 9b rewritten the economics: color earns about $7 to $14 per copy at $19.99 to $29.99; verdict CAUTION (improved); owner approval of revised research pending. Figures: recommend 15 to 25 at this size (decide at /outline-book). Title compliance review must be re-run on the final string.
+- 2026-10-29 POCKET-GUIDE REQUEST (owner): wants the book stated as a pocket guide and pocket sized. KDP facts read live 2026-10-29: smallest US paperback trims are 5 x 8 and 5.06 x 7.81 in (true pocket sizes are not offered); small-trim print cost: black 1.00 + 0.012/page (110-828 pp), standard color 1.00 + 0.0255/page (72-600 pp). Competing pocket books seen on Amazon: 2.95 x 5.87 in and 4.17 x 6.5 in (publisher-printed). Decision pending with owner.
+- 2026-10-29 SHORT-BOOK SCOPE LOCK (owner): 6 Parts, about 5,000 words each (about 30,000 words), word floor 5,000 / ceiling 6,000 (was 12 Parts, 10,000 to 12,000). Replaces the 12-Part plan. Still to do: re-run market-research Step 4 economics and positioning for a compact book (about 100 to 150 pages, price likely $19.99 to $29.99), decide whether 50 figures still fits (about 8 per Part), choose which 6 Parts at /outline-book. Medical clearance still required.
+- 2026-10-29 TITLE (owner chose subtitle naming all groups): "Emergency Nursing Essentials: An Illustrated Guide to Rapid Assessment, Priorities and Procedures for Nursing, Paramedic, EMT and Allied Health Students" (150 chars). Compliance round 3: REVISE, no BLOCK; rules pass (length, keyword repetition, promo, cure wording). Open: USPTO search for "essentials" / "emergency nursing essentials" (owner), cover match (no cover yet), re-check "Illustrated" and "Procedures" against delivered content. Outline must add a nursing-priorities element per Part (title says Nursing); description must state depth, US scope, no dose figures, education-only disclaimer. See title-check-v2.md and compliance/title-v2.md.
+- 2026-10-29: owner asked Claude to pick the title. Chosen: "Emergency Nursing Essentials" (head term + plain role word, modeled on the structure of the ranking titles, not their wording). Subtitle still to choose; USPTO search still to be run by owner; market research to be repeated for the changed title (quick exact-title/keyword pass) before the gate closes.
 - Interior ink: STANDARD COLOR (owner, 2026-10-28). Unit economics in market-research.md must be judged on standard color; re-run market research with live Amazon access.
 
 ## Open issues / questions for the owner
-- 2026-10-28: market-research.md written with verdict CAUTION. Amazon pages returned HTTP 503 so no competitor/rank/price/review evidence; only KDP economics verified. Owner must decide how to complete Steps 2-5.
+- 2026-10-28 (second run): live Amazon research done in the built-in browser (22 competitors, ranks, prices, economics). Verdict CAUTION, awaiting owner approval. Review text NOT SEEN (sign-in wall). Owner decisions needed: color vs black-and-white, target price ($39.99-$49.99 if color), positioning (one-volume / nursing-led / EMS-led).
 - Color vs black-and-white interior changes royalty by ~$7-10 per copy (see market-research.md).

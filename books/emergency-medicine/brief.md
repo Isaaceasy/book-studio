@@ -3,7 +3,7 @@
 ## Brief summary
 - Reader: nursing and allied-health students (nursing, paramedic/EMT, allied health) in the US.
 - Promise: a clear, accurate reference to emergency conditions, assessment and management, written in connected prose with visual support.
-- Format: medical reference in Parts and entries; Word house style (US Letter); 12 Parts of 10,000 to 12,000 words; about 50 figures.
+- Format (REVISED 2026-10-29): compact medical guide, 6 Parts of about 5,000 words (about 30,000 words); KDP PDF at 5 x 8 in, standard color; 15 to 25 figures (to lock at /outline-book); title "Emergency Nursing Fundamentals"; wording "Compact Guide", never "Pocket". Replaces the earlier plan (12 Parts, Word US Letter, 50 figures).
 
 ## Defaults I chose
 - Language en, region US (US spelling, US guidelines, amazon.com).

@@ -1,60 +1,60 @@
 # Build report: Emergency Nursing Fundamentals
 Built: 2026-10-29
 
-- Pages in interior PDF: 181
-- Words in the PDF text layer (approx., includes headers and numbers): 41531
+- Pages in interior PDF: 179
+- Words in the PDF text layer (approx., includes headers and numbers): 42651
 - Trim: 5.0 x 8.0 in; margins top/bottom/inside/outside 0.65/0.7/0.65/0.6 in
-- Inside margin required for 181 pages (KDP table read 2026-10-29): 0.5 in
-- Fonts: 4 font resources; not embedded: ['None']
-- Intentional blank pages: [32, 57, 83, 110, 134, 166, 168, 172, 178]
+- Inside margin required for 179 pages (KDP table read 2026-10-29): 0.5 in
+- Fonts: 13 font resources; not embedded: ['None']
+- Intentional blank pages: [32, 82, 132, 166, 170, 176]
 - Pages with very little text (check by eye): [6, 56]
 
 ## Contents page numbers
 - How to Use This Book: page 5
-- Part 1  The Emergency Approach: Safety, Triage and Assessment: page 7
-- 1.1  Scene Safety, Personal Protection and Responder Wellbeing: page 8
-- 1.2  Triage and Acuity: page 11
-- 1.3  The Primary Survey: page 15
-- 1.4  History, Vital Signs and the Secondary Survey: page 21
-- 1.5  Communication, Consent, Scope of Practice, Handover, Reassessment and Documentation: page 25
-- Part 2  Airway and Breathing Emergencies: page 33
-- 2.1  Airway Anatomy and Assessment: page 34
-- 2.2  Airway Obstruction and Basic Airway Management: page 37
-- 2.3  Ventilation Support: Bag-Valve-Mask and Oxygen Delivery: page 42
-- 2.4  Respiratory Distress: Asthma, COPD and Pneumonia: page 46
-- 2.5  Anaphylaxis: page 50
-- Part 3  Cardiac Emergencies and Resuscitation: page 58
-- 3.1  The Heart in Brief: Pump, Vessels and Electrical System: page 59
-- 3.2  Acute Chest Pain and Acute Coronary Syndrome: page 61
-- 3.3  Recognizing Dangerous Rhythms: page 64
-- 3.4  Cardiac Arrest, High-Quality CPR and the AED: page 68
-- 3.5  Shock: Recognition and First Priorities: page 75
-- Part 4  Trauma, Burns and Environmental Emergencies: page 84
-- 4.1  Trauma Assessment and Mechanism of Injury: page 85
-- 4.2  Bleeding and Hemorrhage Control: page 88
-- 4.3  Head, Spine and Chest Injuries: page 93
-- 4.4  Fractures, Dislocations and Splinting: page 97
-- 4.5  Burns: page 100
-- 4.6  Heat and Cold Emergencies: page 103
-- Part 5  Medical Emergencies: page 111
-- 5.1  Altered Mental Status and Hypoglycemia: page 112
-- 5.2  Stroke: page 116
-- 5.3  Seizures: page 120
-- 5.4  Sepsis: page 122
-- 5.5  Poisoning and Overdose: page 125
-- 5.6  Acute Abdominal Pain and Gastrointestinal Bleeding: page 128
-- Part 6  Special Populations, Behavioral Emergencies and Safety: page 135
-- 6.1  Children: Assessment and How They Differ: page 136
-- 6.2  Children: Choking, Breathing Support and Resuscitation Differences: page 142
-- 6.3  Pregnancy Emergencies and Imminent Birth: page 147
-- 6.4  Older Adults: page 151
-- 6.5  Behavioral and Mental Health Emergencies: page 152
-- 6.6  Abuse, Neglect and Interpersonal Violence: page 155
-- Appendix A: Answers to Review Questions: page 161
-- Appendix B: Abbreviations: page 167
-- Appendix C: Reference Values: page 169
-- Glossary: page 173
-- Index: page 179
+- Part 1&ensp;The Emergency Approach: Safety, Triage and Assessment: page 7
+- 1.1&ensp;Scene Safety, Personal Protection and Responder Wellbeing: page 8
+- 1.2&ensp;Triage and Acuity: page 11
+- 1.3&ensp;The Primary Survey: page 15
+- 1.4&ensp;History, Vital Signs and the Secondary Survey: page 21
+- 1.5&ensp;Communication, Consent, Scope of Practice, Handover, Reassessment and Documentation: page 25
+- Part 2&ensp;Airway and Breathing Emergencies: page 33
+- 2.1&ensp;Airway Anatomy and Assessment: page 34
+- 2.2&ensp;Airway Obstruction and Basic Airway Management: page 37
+- 2.3&ensp;Ventilation Support: Bag-Valve-Mask and Oxygen Delivery: page 42
+- 2.4&ensp;Respiratory Distress: Asthma, COPD and Pneumonia: page 46
+- 2.5&ensp;Anaphylaxis: page 50
+- Part 3&ensp;Cardiac Emergencies and Resuscitation: page 57
+- 3.1&ensp;The Heart in Brief: Pump, Vessels and Electrical System: page 58
+- 3.2&ensp;Acute Chest Pain and Acute Coronary Syndrome: page 60
+- 3.3&ensp;Recognizing Dangerous Rhythms: page 63
+- 3.4&ensp;Cardiac Arrest, High-Quality CPR and the AED: page 67
+- 3.5&ensp;Shock: Recognition and First Priorities: page 74
+- Part 4&ensp;Trauma, Burns and Environmental Emergencies: page 83
+- 4.1&ensp;Trauma Assessment and Mechanism of Injury: page 84
+- 4.2&ensp;Bleeding and Hemorrhage Control: page 87
+- 4.3&ensp;Head, Spine and Chest Injuries: page 92
+- 4.4&ensp;Fractures, Dislocations and Splinting: page 96
+- 4.5&ensp;Burns: page 99
+- 4.6&ensp;Heat and Cold Emergencies: page 102
+- Part 5&ensp;Medical Emergencies: page 109
+- 5.1&ensp;Altered Mental Status and Hypoglycemia: page 110
+- 5.2&ensp;Stroke: page 114
+- 5.3&ensp;Seizures: page 118
+- 5.4&ensp;Sepsis: page 120
+- 5.5&ensp;Poisoning and Overdose: page 123
+- 5.6&ensp;Acute Abdominal Pain and Gastrointestinal Bleeding: page 126
+- Part 6&ensp;Special Populations, Behavioral Emergencies and Safety: page 133
+- 6.1&ensp;Children: Assessment and How They Differ: page 134
+- 6.2&ensp;Children: Choking, Breathing Support and Resuscitation Differences: page 140
+- 6.3&ensp;Pregnancy Emergencies and Imminent Birth: page 145
+- 6.4&ensp;Older Adults: page 149
+- 6.5&ensp;Behavioral and Mental Health Emergencies: page 150
+- 6.6&ensp;Abuse, Neglect and Interpersonal Violence: page 153
+- Appendix A: Answers to Review Questions: page 159
+- Appendix B: Abbreviations: page 165
+- Appendix C: Reference Values: page 167
+- Glossary: page 171
+- Index: page 177
 
 ## Checks
 - All automatic checks passed.

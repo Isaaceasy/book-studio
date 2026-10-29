@@ -93,3 +93,8 @@ NOTE 2026-10-29: the bullets that begin "Medical profile, en/US, 12 Parts", "50 
 - Result: Entries 6.2 and 3.4 match the AHA text. Two additions in Entry 6.2: witnessed sudden collapse means call and fetch AED first; adult pads must not touch each other.
 - Entry 6.1 fever wording (under 3 months, 100.4 F or higher, urgent evaluation) is kept; AAP guideline itself covers well-appearing infants 8 to 60 days. Clinician to confirm wording.
 - Disclaimer paragraph added to front/copyright.md (no claim of clinician review). Clinician (Orville A. Corey) is working on the draft; file stays DRAFT_FOR_REVIEW.
+
+## 2026-10-29 Clinical clearance (reported by owner)
+- Owner reports that Orville A. Corey reviewed the whole book and cleared it, with no outstanding corrections. Recorded on the owner's word; no written sign-off or credential details were supplied to me. Keep his written sign-off with the clearance pack.
+- DRAFT_FOR_REVIEW label removed from the file name. Final PDF: final/emergency-nursing-fundamentals-interior.pdf (179 pages).
+- Remaining: owner views the file in the KDP online previewer, orders a proof copy, Stage 8 (/kdp-metadata) and Stage 9 (/kdp-upload-guide).

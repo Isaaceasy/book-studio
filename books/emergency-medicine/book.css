@@ -154,7 +154,7 @@ hr { margin: 1em 0; }
 .mcq ol ol > li::before { content: counter(step, upper-alpha) ")"; background: none; color: var(--accent-deep); width: auto; height: auto; font-size: 9pt; line-height: 1.4; border-radius: 0; text-align: left; top: 0; }
 
 /* keep figures from forcing big blank gaps: slightly smaller maximum height */
-figure img { max-height: 3.1in; }
+figure img { max-height: 4.7in; }
 /* keep the one-line figure pointer on the same page as its figure */
 p:has(+ figure) { break-after: avoid; }
 

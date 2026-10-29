@@ -87,3 +87,9 @@ NOTE 2026-10-29: the bullets that begin "Medical profile, en/US, 12 Parts", "50 
 6. HiggsField: image privacy setting on the owner's account and a terms re-check before publication.
 7. ISBN, imprint, copyright wording for AI-generated text; cover, description and 7 keywords do not exist yet (Stage 8).
 8. Figure numbering in the printed book follows order of appearance; Part 1 figures 1 and 2 and Part 4 figures 13 and 14 are swapped against outline IDs (recorded above).
+
+## 2026-10-29 Owner PDFs and disclaimer
+- Owner uploaded AHA/AAP 2025 Part 6 Pediatric BLS (read in full for the relevant sections: opening airway, 20-30 breaths/min, FBAO, pulse check up to 10 s, 30:2 and 15:2, depth 1.5 in/2 in, 100-120/min, 1-hand or 2-thumb infant technique, firm surface, single shock, pediatric attenuator under 8 years), the Pediatric Critical Care Compendium 2021-2026, and the AAP 2021 febrile infant guideline (supplied twice).
+- Result: Entries 6.2 and 3.4 match the AHA text. Two additions in Entry 6.2: witnessed sudden collapse means call and fetch AED first; adult pads must not touch each other.
+- Entry 6.1 fever wording (under 3 months, 100.4 F or higher, urgent evaluation) is kept; AAP guideline itself covers well-appearing infants 8 to 60 days. Clinician to confirm wording.
+- Disclaimer paragraph added to front/copyright.md (no claim of clinician review). Clinician (Orville A. Corey) is working on the draft; file stays DRAFT_FOR_REVIEW.

@@ -2,15 +2,15 @@
 Built: 2026-10-29
 
 - Pages in interior PDF: 179
-- Words in the PDF text layer (approx., includes headers and numbers): 42625
+- Words in the PDF text layer (approx., includes headers and numbers): 42791
 - Trim: 5.0 x 8.0 in; margins top/bottom/inside/outside 0.65/0.7/0.65/0.6 in
 - Inside margin required for 179 pages (KDP table read 2026-10-29): 0.5 in
 - Fonts: 13 font resources; not embedded: ['None']
-- Intentional blank pages: [6, 32, 82, 132, 166, 170, 176]
+- Intentional blank pages: [32, 82, 132, 166, 170, 176]
 - Pages with very little text (check by eye): [56]
 
 ## Contents page numbers
-- How to Use This Book: page 5
+- How to Use This Book: page 6
 - Part 1&ensp;The Emergency Approach: Safety, Triage and Assessment: page 7
 - 1.1&ensp;Scene Safety, Personal Protection and Responder Wellbeing: page 8
 - 1.2&ensp;Triage and Acuity: page 11

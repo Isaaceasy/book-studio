@@ -29,7 +29,7 @@ Author (owner, 2026-10-29): Mark Gerald Simon (book.yaml author). No credentials
 ## Chapters
 | # | Title | Words | Figures | Fact-check clear | Compliance PASS | Audited | Preview sent | Approved |
 |---|-------|-------|---------|------------------|-----------------|---------|--------------|----------|
-| 1 | The Emergency Approach: Safety, Triage and Assessment | 5,400 target | 4 | | | | | |
+| 1 | The Emergency Approach: Safety, Triage and Assessment | about 5,600 (25 preview pages) | 4 (3 SVG, 1 HiggsField) | Round 1 and 2 done; all text corrections applied; clinician rows NEEDS-HUMAN open (verification-log P1) | Round 2 REVISE items applied; round 3 re-check not run | Audited, all required changes applied | previews/ch01.pdf (2026-10-29) | DRAFT_FOR_REVIEW (autonomous) |
 | 2 | Airway and Breathing Emergencies | 5,500 target | 4 | | | | | |
 | 3 | Cardiac Emergencies and Resuscitation | 5,250 target | 4 | | | | | |
 | 4 | Trauma, Burns and Environmental Emergencies | 5,500 target | 6 | | | | | |

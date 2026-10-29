@@ -2,3 +2,6 @@
 
 ## 2026-10-29
 Stage 4 design sample built and inspected; awaiting owner approval before /write-chapter 1 (autonomous run). No Part written yet.
+
+## Part 1 built (2026-10-29)
+Part 1 written, fact-checked (2 rounds), compliance (2 rounds, fixes applied, round 3 not run), edited, figures done, preview built. Part 2 drafted (5,500 words, figures F5-F8 made); fact-check, compliance and audit of Part 2 running. Open: Part 1 NEEDS-HUMAN clinician rows; Part 1 layout has gaps (to tune at assembly).

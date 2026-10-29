@@ -97,7 +97,7 @@ def decorate(pdf_path: Path, cfg: dict):
     html = f"""<!doctype html><html><head><meta charset="utf-8"><style>
     @page {{ size: {w}in {h}in; margin: 0; }}
     html,body {{ margin:0; padding:0; }}
-    .pg {{ position:relative; width:{w}in; height:{h}in; overflow:hidden; page-break-after:always; font-family:"Inter","Arial",sans-serif; }}
+    .pg {{ position:relative; width:{w}in; height:{h}in; overflow:hidden; page-break-after:always; font-family:"InterTT","Inter","Arial",sans-serif; }}
     .hd {{ position:absolute; top:0.3in; font-size:7pt; letter-spacing:0.12em; text-transform:uppercase; color:#5a5e66; }}
     .hd.right {{ right:{outer}in; text-align:right; }} .hd.left {{ left:{outer}in; }}
     .hd .rt {{ border-bottom:1.2px solid {accent}; padding-bottom:3px; }}

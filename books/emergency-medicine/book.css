@@ -20,7 +20,7 @@
   --muted: #5a5e66;
   --rule: #d9cfd0;
   --body-font: "Caladea", "Georgia", "Liberation Serif", serif;
-  --heading-font: "Inter", "Helvetica Neue", "Arial", "Liberation Sans", sans-serif;
+  --heading-font: "InterTT", "Inter", "Helvetica Neue", "Arial", "Liberation Sans", sans-serif;
   --body-size: 10pt;          /* readable on a 5 x 8 in page */
   --line-height: 1.45;
 }

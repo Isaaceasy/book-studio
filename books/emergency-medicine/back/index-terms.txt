@@ -23,8 +23,6 @@ Chest compressions | compressions
 Chest pain
 Children | child | infant
 Choking
-Circulation
-Communication
 Concussion
 Consent
 COPD
@@ -34,12 +32,10 @@ Defibrillation
 Dehydration
 Delirium
 Direct pressure
-Disability
 Documentation
 Dislocation
 Epiglottis
 Epinephrine | adrenaline
-Exposure
 First look
 Fracture | fractures
 Frostbite
@@ -68,15 +64,12 @@ Pneumonia
 Poisoning | overdose
 Pregnancy | pregnant
 Primary survey
-Pulse
 Recovery position
 Reassessment
 Respiratory distress
 Respiratory failure
-Review questions
 Rhythm | rhythms
 Rule of nines
-Safety
 Scope of practice
 Scene safety
 Secondary survey
@@ -87,7 +80,7 @@ Spinal motion restriction | spinal injury | spine
 Splint | splinting
 Standard precautions
 Stridor
-Stroke
+Stroke | re:(?<!heat )stroke
 Suction
 Suicide
 Tourniquet

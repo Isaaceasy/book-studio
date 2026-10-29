@@ -178,10 +178,17 @@ def md_to_pdf(md: Path, out: Path, book_dir: Path, cfg: dict, root: Path, toc=Fa
                 if hit is None:
                     continue
                 cur = hit
-                if hit % 2 == 1 and "blankpage" not in text[max(0, m.start() - 40):m.start()]:
+                has_blank = "blankpage" in text[max(0, m.start() - 60):m.start()]
+                if hit % 2 == 1 and not has_blank:
                     text = text[:m.start()] + '<div class="blankpage">&nbsp;</div>' + text[m.start():]
                     changed = True
                     break  # re-render: later page numbers shift
+                if hit % 2 == 1 and has_blank:
+                    # the blank itself pushed the opener onto a left page: take it out
+                    b = text.rfind('<div class="blankpage">', 0, m.start())
+                    text = text[:b] + text[m.start():]
+                    changed = True
+                    break
             if changed:
                 html.write_text(text, encoding="utf-8")
                 continue

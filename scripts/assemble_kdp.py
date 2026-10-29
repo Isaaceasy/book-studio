@@ -47,9 +47,9 @@ def parse_toc_items(book_dir, cfg):
     for f in sorted((book_dir / "chapters").glob("ch0*.md")):
         t = f.read_text(encoding="utf-8")
         m = re.search(r'^#\s+(.+?)\s*\{data-label="Part (\d+)"', t, flags=re.M)
-        items.append(("part", f"Part {m.group(2)}  {m.group(1)}", norm(m.group(1))))
+        items.append(("part", f"Part {m.group(2)}&ensp;{m.group(1)}", norm(m.group(1))))
         for e in re.finditer(r'^##\s+\[(\d\.\d)\]\{\.num\}\s+(.+)$', t, flags=re.M):
-            items.append(("entry", f"{e.group(1)}  {e.group(2).strip()}", norm(e.group(1) + e.group(2))))
+            items.append(("entry", f"{e.group(1)}&ensp;{e.group(2).strip()}", norm(e.group(1) + e.group(2))))
     return items
 
 
@@ -90,7 +90,7 @@ def answers_md(book_dir):
     return "\n".join(out) + "\n"
 
 
-def index_md(book_dir, page_texts, body_range):
+def index_md(book_dir, page_texts, body_range, part_keys=()):
     terms = []
     f = book_dir / "back" / "index-terms.txt"
     for line in f.read_text(encoding="utf-8").splitlines():
@@ -100,12 +100,30 @@ def index_md(book_dir, page_texts, body_range):
             terms.append((parts[0], parts[1:] or [parts[0]]))
     lo, hi = body_range
     rows = {}
+    openers = set()
+    for i in range(lo, hi):
+        head = norm(page_texts[i])[:40]
+        for key in part_keys:
+            if head.startswith(key[:30]):
+                openers.add(i)
     for head, pats in terms:
-        pgs = []
+        regs = [p[3:] for p in pats if p.startswith("re:")]
+        pats_plain = [p for p in pats if not p.startswith("re:")]
+        pgs, counts = [], {}
         for i in range(lo, hi):
+            if i in openers:
+                continue
             tx = page_texts[i]
-            if any(re.search(r"(?i)\b" + re.escape(p) + r"\b", tx) for p in ([head] + pats)):
-                pgs.append(i + 1)
+            if regs:
+                n = sum(len(re.findall("(?i)" + r, tx)) for r in regs)
+            else:
+                n = sum(len(re.findall(r"(?i)\b" + re.escape(p) + r"\b", tx)) for p in set([head] + pats_plain))
+            if n:
+                counts[i + 1] = n
+        pgs = sorted(counts)
+        if len(pgs) > 8:                      # keep the pages where the term is a real topic
+            strong = [p for p in pgs if counts[p] >= 3]
+            pgs = strong or pgs
         if pgs:
             rows[head] = pgs
     def compress(p):
@@ -126,7 +144,7 @@ def index_md(book_dir, page_texts, body_range):
             cur = L
             out += [f'[{L}]{{.letter}}', '']
         pg = rows[head]
-        shown = pg if len(pg) <= 10 else pg[:10]
+        shown = pg
         out += [f'**{head}** {compress(shown)}', '']
     out += [':::']
     return "\n".join(out) + "\n", len(rows)
@@ -195,7 +213,7 @@ def main():
         new_pages = locate(items, page_texts, 2)
         first_part = new_pages.get(next(i for i, it in enumerate(items) if it[0] == "part"), 3) - 1
         app_a = new_pages.get(next(i for i, it in enumerate(items) if it[1].startswith("Appendix A")), len(page_texts)) - 1
-        new_index, nterms = index_md(book_dir, page_texts, (first_part, app_a))
+        new_index, nterms = index_md(book_dir, page_texts, (first_part, app_a), [it[2] for it in items if it[0] == 'part'])
         print(f"round {rnd + 1}: {len(page_texts)} pages, {len(new_pages)}/{len(items)} entries located, {nterms} index terms")
         if new_pages == pages and new_index == index_text:
             break

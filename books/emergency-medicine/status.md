@@ -19,7 +19,7 @@ Author (owner, 2026-10-29): Mark Gerald Simon (book.yaml author). No credentials
 - [x] 2. Title gate passed 2026-10-29 by the owner: "Emergency Nursing Fundamentals: A Compact Illustrated Guide to Rapid Assessment, Priorities and Procedures for Nursing, Paramedic, EMT and Allied Health Students". Open item: cover match (no cover yet). Risk LOW to MEDIUM (see decisions).
 - [x] 3. Architecture lock approved by the owner 2026-10-29 (6 Parts, 25 figures; outline.md, style-guide.md, book-bible.md locked; no silent changes from now on)
 - [x] 3b. Run-mode question answered 2026-10-29: AUTONOMOUS (starts after /design-interior is approved). Settings collected: image mode YES-ALL (HiggsField for anatomy and illustrations, SVG for flowcharts); no medicine doses; author Mark Gerald Simon; dedication and acknowledgements OMITTED; delivery = per-Part preview PDF plus final book. Still never replaced: fact-check, compliance, clinician clearance (file stays DRAFT_FOR_REVIEW).
-- [ ] 4. Design system approved
+- [x] 4. Design system approved by the owner 2026-10-29 (single-column body, not two columns throughout; body size reduced from 10.5 to 10 pt on the owner's question)
 - [ ] 5. Chapters (see table)
 - [ ] 6. Final assembly checked
 - [ ] 7. Clinical / technical clearance (medical, engineering) recorded or file labelled DRAFT_FOR_REVIEW

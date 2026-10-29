@@ -21,7 +21,7 @@
   --rule: #d9cfd0;
   --body-font: "Caladea", "Georgia", "Liberation Serif", serif;
   --heading-font: "Inter", "Helvetica Neue", "Arial", "Liberation Sans", sans-serif;
-  --body-size: 10.5pt;          /* readable on a 5 x 8 in page */
+  --body-size: 10pt;          /* readable on a 5 x 8 in page */
   --line-height: 1.45;
 }
 html { font-size: var(--body-size); }

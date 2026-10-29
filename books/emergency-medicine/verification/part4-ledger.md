@@ -196,3 +196,26 @@ Total rows: 144
 - QUALIFIED: 41
 - VERIFIED: 88
 - Rows flagged NEEDS-HUMAN (primary or secondary): 61
+
+## Answer key (Review Questions, as written)
+Q1 A (severe external bleeding). Q2 B (fall from a height). Q3 A (direct pressure with a clean dressing). Q4 D (between the wound and the heart; wording to change, see ledger). Q5 A (keep head, neck and trunk in line, limit movement). Q6 B (circulation, sensation and movement below the injury). Q7 A (1 percent; palm with fingers). Q8 short case, no key in the chapter: proposed key in the Q8 row. No question has two correct options. Arguable: Q2 option A for older adults. Weak distractors: Q2 C and D, Q6 A, C and D. Letter spread: A 4, B 2, C 0, D 1 (fix in the spread row).
+
+## Consistency issues
+- Tourniquet placement is taught as "high on the limb" in four places (4.2 body, Procedure step 5, Figure 14 caption and SVG, Q4 option D) plus the vignette; all must change together (rows on placement).
+- Figure numbering 13/14 is swapped against outline.md section 3 (outline: F13 tourniquet, F14 pressure and packing). Outline also calls F13 to F17 HiggsField illustrations, but the chapter files are SVG; confirm with the owner or update the outline (locked-plan rule).
+- Vignette skips packing although 4.2 and the Procedure put packing before the tourniquet; vignette jacket is used twice.
+- "Give oxygen as directed" lacks the mandatory medicines-scope sentence that Parts 2, 3 and 5 carry.
+- Heading "High-Risk Mechanisms" versus the CDC guideline, where mechanisms are the moderate-risk (yellow) tier.
+- Entry 4.1 cross-reference to Entry 3.5 for compensated shock: no Part 3 ledger rows exist yet in verification-log.md, so that home claim is unverified there.
+
+## Terminology and number-format issues
+- Terms match the locked table (hemorrhage, tourniquet, splint, TBSA, scope of practice). "Emergency number" and "trauma center" are acceptable US usage.
+- Percentages are spelled "percent" in prose; Q7 options likewise. Proposed additions use US units first with SI in parentheses ("2 to 3 inches (5 to 7.5 cm)", "10 feet (3 meters)").
+- No ESI, START, ENA, AHA, ATLS, course or brand names, URLs, hyperlinks, "pocket", citations or em dashes found.
+
+## Top risks
+1. Tourniquet placement "high on the limb" (P4 placement rows): contradicts the 2023 joint statement and Stop the Bleed (2 to 3 inches above the wound); "high and tight" is for unknown or unsafe bleeding sources only.
+2. "Severed limb ... is a tourniquet case" and "tourniquet does not fit ... base of the skull": overstate the sources.
+3. Neck wound "firm pressure with the heel of your hand" versus MedlinePlus "gentle pressure"; airway risk.
+4. Burn cooling left to "your protocol": every opened source gives a range (10 to 20 minutes); a student without a protocol gets no usable instruction. Also the "stop cooling" and "call before cooling" sequencing is unsourced.
+5. Missing skull-fracture caution on head-wound pressure; "ask the patient to wiggle fingers" versus "do not test movement"; unsourced "work that day".

@@ -47,7 +47,7 @@ def _classify(texts, cfg):
                 break
         else:
             for key in ref_keys:
-                if key and head.startswith(key[:20]):
+                if cur is not None and key and head.startswith(key[:20]):
                     cur, opener = "R", True
                     break
         out.append((cur, opener, len(stripped) < 3))

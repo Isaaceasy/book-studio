@@ -167,7 +167,7 @@ def md_to_pdf(md: Path, out: Path, book_dir: Path, cfg: dict, root: Path, toc=Fa
             pages = [norm(pg.extract_text() or "") for pg in PdfReader(str(out)).pages]
             changed, cur, pos = False, 0, 0
             for m in list(re.finditer(r"<h1\b[^>]*>(.*?)</h1>", text, flags=re.S)):
-                if 'class="titlemark"' in m.group(0) or "titlemark" in m.group(0):
+                if "titlemark" in m.group(0) or " front" in m.group(0) or 'class="front' in m.group(0):
                     continue
                 key = norm(re.sub(r"<[^>]+>", "", m.group(1)))[:30]
                 hit = next((i for i in range(cur, len(pages)) if key and pages[i].startswith(key)), None)

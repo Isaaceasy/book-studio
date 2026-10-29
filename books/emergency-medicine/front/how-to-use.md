@@ -1,4 +1,4 @@
-# How to Use This Book {data-label="Before you begin" .back}
+# How to Use This Book {data-label="Before you begin" .back .front}
 
 This guide follows the order in which a responder thinks in an emergency: make the scene safe, sort who cannot wait, assess in a fixed order, then deal with the problem in front of you. It is written for nursing students, paramedic and EMT students, and allied health students in their first emergency placements or courses.
 

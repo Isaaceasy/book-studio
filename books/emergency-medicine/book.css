@@ -157,3 +157,12 @@ hr { margin: 1em 0; }
 figure img { max-height: 3.1in; }
 /* keep the one-line figure pointer on the same page as its figure */
 p:has(+ figure) { break-after: avoid; }
+
+/* front matter pages: no forced right-hand start, compact band */
+h1.front { padding: 0.18in 0.25in 0.2in 0.25in; font-size: 16pt; margin-bottom: 0.15in; }
+.smallprint p { font-size: 8pt; line-height: 1.32; margin-bottom: 0.5em; text-align: left; }
+.toc { break-before: page; }
+.toc-line { text-align: left; margin-bottom: 0.2em; }
+.toc-line.entry { font-size: 9pt; }
+.toc-line.part { margin-top: 0.45em; font-size: 9.5pt; }
+.toc-heading { margin-bottom: 0.4em; }

@@ -21,7 +21,7 @@ Author (owner, 2026-10-29): Mark Gerald Simon (book.yaml author). No credentials
 - [x] 3b. Run-mode question answered 2026-10-29: AUTONOMOUS (starts after /design-interior is approved). Settings collected: image mode YES-ALL (HiggsField for anatomy and illustrations, SVG for flowcharts); no medicine doses; author Mark Gerald Simon; dedication and acknowledgements OMITTED; delivery = per-Part preview PDF plus final book. Still never replaced: fact-check, compliance, clinician clearance (file stays DRAFT_FOR_REVIEW).
 - [x] 4. Design system approved by the owner 2026-10-29 (single-column body, not two columns throughout; body size reduced from 10.5 to 10 pt on the owner's question)
 - [x] 5. Chapters 1 to 6 written, fact-checked, compliance-reviewed (round 1), audited, illustrated and previewed 2026-10-29 (all DRAFT_FOR_REVIEW; clinician items open)
-- [~] 6. Final assembly built 2026-10-29 (181 pages, final/); whole-book compliance and back-matter fact-check running
+- [~] 6. Final assembly built 2026-10-29 (179 pages, final/); whole-book compliance round and back-matter fact-check done, fixes applied
 - [~] 7. Clinical clearance: pack prepared (final/clinical-clearance-pack.docx); clearance NOT recorded; file labelled DRAFT_FOR_REVIEW
 - [ ] 8. KDP metadata (description + 7 keywords) done
 - [ ] 9. KDP upload guide delivered

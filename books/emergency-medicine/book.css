@@ -143,3 +143,6 @@ hr { margin: 1em 0; }
 .title-page .band h1 { text-align: left; }
 /* empty page inserted by bookbuild.py so Part openers fall on right-hand pages */
 .blankpage { break-before: page; break-after: page; height: 0.05in; font-size: 1pt; color: #fff; }
+/* Review questions: stem and lettered options (answer key is in Appendix A) */
+.mcq p { text-align: left; font-size: 9.6pt; line-height: 1.4; margin: 0 0 0.7em 0; break-inside: avoid; }
+.mcq p strong { font-family: var(--heading-font); color: var(--accent-deep); }

@@ -33,7 +33,7 @@
 
 ## 3. Manuscript analysis summary
 
-A 179-page, 5 x 8 inch, full-color illustrated study guide in six Parts and 45 numbered entries: the emergency approach (safety, triage, surveys, vital signs, communication); airway and breathing; cardiac emergencies and resuscitation; trauma, burns and environmental emergencies; medical emergencies; and special populations and safety. It has 25 figures, procedure boxes, Safety, Red Flags, Scope Note, Remember and Care Priorities boxes, a fictional illustrative case and eight review questions per Part, a 68-term glossary and an index. It is written for United States practice, gives no medicine doses, and says plainly that it does not replace training or local protocol. The text and images were created with AI tools (disclosed on the copyright page).
+A 179-page, 5 x 8 inch, full-color illustrated study guide in six Parts and 33 numbered entries: the emergency approach (safety, triage, surveys, vital signs, communication); airway and breathing; cardiac emergencies and resuscitation; trauma, burns and environmental emergencies; medical emergencies; and special populations and safety. It has 25 figures, procedure boxes, Safety, Red Flags, Scope Note, Remember and Care Priorities boxes, a fictional illustrative case and eight review questions per Part, a 68-term glossary and an index. It is written for United States practice, gives no medicine doses, and says plainly that it does not replace training or local protocol. The text and images were created with AI tools (disclosed on the copyright page).
 
 ## 4. Target reader
 
@@ -53,7 +53,7 @@ Scene safety; triage and acuity; primary and secondary survey; vital signs; cons
 
 ## 8. Description One (Problem and Solution), readable
 
-*385 words.*
+*363 words.*
 
 **Your first emergency shift will not wait for you to feel ready.**
 
@@ -63,7 +63,7 @@ Emergency Nursing Fundamentals is a compact, illustrated guide to the order of t
 
 **What you will find inside**
 
-- Six Parts and 45 numbered entries, so you can find a topic fast
+- Six Parts and 33 numbered entries, so you can find a topic fast
 - 25 figures: anatomy illustrations, flow charts and step-by-step diagrams
 - Procedure boxes with numbered steps, plus Safety, Red Flags and Scope Note boxes
 - An illustrative case, a summary of priorities and eight review questions at the end of every Part, with answers
@@ -71,13 +71,13 @@ Emergency Nursing Fundamentals is a compact, illustrated guide to the order of t
 
 **Topics covered**
 
-Scene safety, triage and acuity, the primary and secondary survey, airway and breathing emergencies, bag-valve-mask ventilation, anaphylaxis, chest pain and the heart, CPR and the AED, shock, bleeding control, burns, fractures, stroke, seizures, sepsis, poisoning, children, pregnancy, older adults and behavioral emergencies.
-
-**Who it is for**
+The guide moves from scene safety, triage and the primary and secondary survey to airway and breathing emergencies, the heart and resuscitation, injury and burns, medical emergencies such as stroke, seizure and sepsis, and the special needs of children, pregnant patients and older adults.
 
 **Why the order matters**
 
-Most mistakes in the first minutes of an emergency come from skipping a step, not from missing a rare fact. Each entry in this guide gives the reason behind its steps, so you understand why airway comes before circulation, why a scene check comes before everything, and why a patient who looks well can still be sick. Understanding the reason helps you remember the sequence and adapt when a real patient does not match the picture in your mind.
+Each entry in this guide gives the reason behind its steps, so you understand why a scene check comes before everything, why the primary survey runs in a fixed order, and why a patient who looks well can still be sick. Knowing the reason makes the sequence easier to remember.
+
+**Who it is for**
 
 Students and new responders who want a clear first guide to the emergency approach, written in plain language for United States practice. It gives no medicine doses and does not replace your course, your instructor, your local protocol or your medical director.
 
@@ -85,15 +85,15 @@ Open it on the first page, learn the order of thinking, and carry it into your n
 
 ## 9. Description One, KDP HTML
 
-*2415 characters including tags (limit 4,000).*
+*2209 characters including tags (limit 4,000).*
 
 ```html
-<h4>Your first emergency shift will not wait for you to feel ready.</h4><p>A patient is struggling to breathe, another is bleeding, and a family member is asking what is happening. When the pressure is real, a long textbook is the last thing you can open. A guide that tells you what to do first, what to do next and when to ask for help is far more useful.</p><p><b>Emergency Nursing Fundamentals</b> is a compact, illustrated guide to the order of thinking that every responder needs: make the scene safe, sort who cannot wait, assess in a fixed order, then treat the problem in front of you. It is written for nursing, paramedic, EMT and allied health students in their first emergency placements and courses.</p><h5>What you will find inside</h5><ul><li>Six Parts and 45 numbered entries, so you can find a topic fast</li><li>25 figures: anatomy illustrations, flow charts and step-by-step diagrams</li><li>Procedure boxes with numbered steps, plus Safety, Red Flags and Scope Note boxes</li><li>An illustrative case, a summary of priorities and eight review questions at the end of every Part, with answers</li><li>A glossary of 68 terms and an index</li></ul><h5>Topics covered</h5><p>Scene safety, triage and acuity, the primary and secondary survey, airway and breathing emergencies, bag-valve-mask ventilation, anaphylaxis, chest pain and the heart, CPR and the AED, shock, bleeding control, burns, fractures, stroke, seizures, sepsis, poisoning, children, pregnancy, older adults and behavioral emergencies.</p><h5>Who it is for</h5><h5>Why the order matters</h5><p>Most mistakes in the first minutes of an emergency come from skipping a step, not from missing a rare fact. Each entry in this guide gives the reason behind its steps, so you understand why airway comes before circulation, why a scene check comes before everything, and why a patient who looks well can still be sick. Understanding the reason helps you remember the sequence and adapt when a real patient does not match the picture in your mind.</p><p>Students and new responders who want a clear first guide to the emergency approach, written in plain language for United States practice. It gives no medicine doses and does not replace your course, your instructor, your local protocol or your medical director.</p><p><b>Open it on the first page, learn the order of thinking, and carry it into your next lab, placement or shift.</b></p>
+<h4>Your first emergency shift will not wait for you to feel ready.</h4><p>A patient is struggling to breathe, another is bleeding, and a family member is asking what is happening. When the pressure is real, a long textbook is the last thing you can open. A guide that tells you what to do first, what to do next and when to ask for help is far more useful.</p><p><b>Emergency Nursing Fundamentals</b> is a compact, illustrated guide to the order of thinking that every responder needs: make the scene safe, sort who cannot wait, assess in a fixed order, then treat the problem in front of you. It is written for nursing, paramedic, EMT and allied health students in their first emergency placements and courses.</p><h5>What you will find inside</h5><ul><li>Six Parts and 33 numbered entries, so you can find a topic fast</li><li>25 figures: anatomy illustrations, flow charts and step-by-step diagrams</li><li>Procedure boxes with numbered steps, plus Safety, Red Flags and Scope Note boxes</li><li>An illustrative case, a summary of priorities and eight review questions at the end of every Part, with answers</li><li>A glossary of 68 terms and an index</li></ul><h5>Topics covered</h5><p>The guide moves from scene safety, triage and the primary and secondary survey to airway and breathing emergencies, the heart and resuscitation, injury and burns, medical emergencies such as stroke, seizure and sepsis, and the special needs of children, pregnant patients and older adults.</p><h5>Why the order matters</h5><p>Each entry in this guide gives the reason behind its steps, so you understand why a scene check comes before everything, why the primary survey runs in a fixed order, and why a patient who looks well can still be sick. Knowing the reason makes the sequence easier to remember.</p><h5>Who it is for</h5><p>Students and new responders who want a clear first guide to the emergency approach, written in plain language for United States practice. It gives no medicine doses and does not replace your course, your instructor, your local protocol or your medical director.</p><p><b>Open it on the first page, learn the order of thinking, and carry it into your next lab, placement or shift.</b></p>
 ```
 
 ## 10. Description Two (Practical Benefits and Application), readable
 
-*377 words.*
+*380 words.*
 
 **Learn what to do first, then what to do next.**
 
@@ -113,13 +113,13 @@ Emergency care is learned in a fixed order. Emergency Nursing Fundamentals teach
 
 Every Part opens with what you will be able to do and closes with an illustrative case, a summary of care priorities and eight review questions with answers. Twenty-five figures show anatomy, decision paths and technique. Safety, Red Flags, Scope Note and Remember boxes mark the points that matter most.
 
-**Who should read it**
-
 **Clear limits, honest scope**
 
-What you may do depends on your license, certification, course and the rules of your service or school. Every procedure in this guide says so, tells you when to stop, and tells you when to call for more help. Practical advice is paired with plain statements of what the book does not cover, such as medicine amounts, intravenous access, reading heart tracings and advanced airway skills, so you always know where this guide ends and your training begins.
+What you may do depends on your license, certification, course and the rules of your service or school. Scope Note boxes mark the limits of your role, and procedures tell you when to stop and when to call for more help. Practical advice is paired with plain statements of what the book does not cover, such as medicine amounts, intravenous access, detailed heart tracing interpretation and advanced airway skills, so you always know where this guide ends and your training begins.
 
 Illustrative cases are fictional and written for teaching. Each one walks through a realistic situation from the first look at the scene to the handover, so you can see the priorities applied in order and compare your own thinking with the steps shown.
+
+**Who should read it**
 
 Nursing, paramedic, EMT and allied health students, and anyone new to emergency settings who wants a compact, practical first reference. It is written for United States practice and gives no medicine doses.
 
@@ -127,21 +127,21 @@ Add it to your bag, read one Part at a time, and practice each skill with your i
 
 ## 11. Description Two, KDP HTML
 
-*2397 characters including tags (limit 4,000).*
+*2423 characters including tags (limit 4,000).*
 
 ```html
-<h4>Learn what to do first, then what to do next.</h4><p>Emergency care is learned in a fixed order. <b>Emergency Nursing Fundamentals</b> teaches that order in six clear Parts, with the steps, warning signs and limits of your role set out so you can practice them on a manikin and recall them under pressure.</p><h5>What this guide helps you do</h5><ul><li>Check a scene for danger before you touch a patient</li><li>Sort patients by how urgently they need help, using five levels of acuity</li><li>Work through the primary survey and secondary survey in the right order</li><li>Recognize breathing trouble, anaphylaxis, chest pain, stroke, seizure, sepsis and shock</li><li>Follow step-by-step procedures for CPR, AED use, choking, bleeding control and splinting</li><li>Adjust your approach for children, pregnancy, older adults and patients in a mental health crisis</li><li>Hand over a patient clearly and reassess as things change</li></ul><h5>Built for study and quick recall</h5><p>Every Part opens with what you will be able to do and closes with an illustrative case, a summary of care priorities and eight review questions with answers. Twenty-five figures show anatomy, decision paths and technique. Safety, Red Flags, Scope Note and Remember boxes mark the points that matter most.</p><h5>Who should read it</h5><h5>Clear limits, honest scope</h5><p>What you may do depends on your license, certification, course and the rules of your service or school. Every procedure in this guide says so, tells you when to stop, and tells you when to call for more help. Practical advice is paired with plain statements of what the book does not cover, such as medicine amounts, intravenous access, reading heart tracings and advanced airway skills, so you always know where this guide ends and your training begins.</p><p>Illustrative cases are fictional and written for teaching. Each one walks through a realistic situation from the first look at the scene to the handover, so you can see the priorities applied in order and compare your own thinking with the steps shown.</p><p>Nursing, paramedic, EMT and allied health students, and anyone new to emergency settings who wants a compact, practical first reference. It is written for United States practice and gives no medicine doses.</p><p><b>Add it to your bag, read one Part at a time, and practice each skill with your instructor.</b></p>
+<h4>Learn what to do first, then what to do next.</h4><p>Emergency care is learned in a fixed order. <b>Emergency Nursing Fundamentals</b> teaches that order in six clear Parts, with the steps, warning signs and limits of your role set out so you can practice them on a manikin and recall them under pressure.</p><h5>What this guide helps you do</h5><ul><li>Check a scene for danger before you touch a patient</li><li>Sort patients by how urgently they need help, using five levels of acuity</li><li>Work through the primary survey and secondary survey in the right order</li><li>Recognize breathing trouble, anaphylaxis, chest pain, stroke, seizure, sepsis and shock</li><li>Follow step-by-step procedures for CPR, AED use, choking, bleeding control and splinting</li><li>Adjust your approach for children, pregnancy, older adults and patients in a mental health crisis</li><li>Hand over a patient clearly and reassess as things change</li></ul><h5>Built for study and quick recall</h5><p>Every Part opens with what you will be able to do and closes with an illustrative case, a summary of care priorities and eight review questions with answers. Twenty-five figures show anatomy, decision paths and technique. Safety, Red Flags, Scope Note and Remember boxes mark the points that matter most.</p><h5>Clear limits, honest scope</h5><p>What you may do depends on your license, certification, course and the rules of your service or school. Scope Note boxes mark the limits of your role, and procedures tell you when to stop and when to call for more help. Practical advice is paired with plain statements of what the book does not cover, such as medicine amounts, intravenous access, detailed heart tracing interpretation and advanced airway skills, so you always know where this guide ends and your training begins.</p><p>Illustrative cases are fictional and written for teaching. Each one walks through a realistic situation from the first look at the scene to the handover, so you can see the priorities applied in order and compare your own thinking with the steps shown.</p><h5>Who should read it</h5><p>Nursing, paramedic, EMT and allied health students, and anyone new to emergency settings who wants a compact, practical first reference. It is written for United States practice and gives no medicine doses.</p><p><b>Add it to your bag, read one Part at a time, and practice each skill with your instructor.</b></p>
 ```
 
 ## 12. Description Three (Comprehensive Guide and Authority), readable
 
-*358 words.*
+*363 words.*
 
 **One compact reference for the whole emergency approach.**
 
 Emergency Nursing Fundamentals brings the core of emergency care into a single illustrated guide of about 180 pages. It follows the way responders actually think: safety, triage, assessment, then the specific problem, with a clear note on scope of practice and when to call for more help.
 
-**Six Parts, 45 entries**
+**Six Parts, 33 entries**
 
 - The emergency approach: scene safety, triage and acuity, the primary survey, history and vital signs, consent, handover and documentation
 - Airway and breathing: airway anatomy, obstruction, bag-valve-mask ventilation, asthma, COPD, pneumonia and anaphylaxis
@@ -152,9 +152,7 @@ Emergency Nursing Fundamentals brings the core of emergency care into a single i
 
 **Designed for learning**
 
-Twenty-five figures, numbered procedure boxes, illustrative cases, review questions with answers, a 68-term glossary and an index make the content easy to revisit. Procedures state their scope, and the book tells you to follow your local protocol whenever it differs.
-
-**Who it serves**
+Twenty-five figures, numbered procedure boxes, illustrative cases, review questions with answers, a 68-term glossary and an index make the content easy to revisit. Scope Note boxes mark the limits of your role, and the book tells you to follow your local protocol whenever it differs.
 
 **Written to be read and revisited**
 
@@ -162,16 +160,18 @@ The writing is plain and direct, with complete explanations in place of fragment
 
 Illustrative cases close each Part and are fictional composites written for teaching. They follow a call from arrival to handover, showing how safety, assessment, treatment and communication fit together in a single response.
 
+**Who it serves**
+
 Nursing, paramedic, EMT and allied health students, and new responders in United States settings. It is a study and reference book, not a substitute for supervised training, and it gives no medicine doses.
 
 Keep it close during your course, then use it to refresh the fundamentals before a placement or a skills check.
 
 ## 13. Description Three, KDP HTML
 
-*2558 characters including tags (limit 4,000).*
+*2575 characters including tags (limit 4,000).*
 
 ```html
-<h4>One compact reference for the whole emergency approach.</h4><p><b>Emergency Nursing Fundamentals</b> brings the core of emergency care into a single illustrated guide of about 180 pages. It follows the way responders actually think: safety, triage, assessment, then the specific problem, with a clear note on scope of practice and when to call for more help.</p><h5>Six Parts, 45 entries</h5><ul><li><b>The emergency approach:</b> scene safety, triage and acuity, the primary survey, history and vital signs, consent, handover and documentation</li><li><b>Airway and breathing:</b> airway anatomy, obstruction, bag-valve-mask ventilation, asthma, COPD, pneumonia and anaphylaxis</li><li><b>Cardiac emergencies and resuscitation:</b> chest pain, dangerous rhythms, CPR, the AED and shock</li><li><b>Trauma, burns and environmental emergencies:</b> bleeding, head, spine and chest injuries, fractures, burns, heat and cold</li><li><b>Medical emergencies:</b> altered mental status, stroke, seizures, sepsis, poisoning and abdominal pain</li><li><b>Special populations and safety:</b> children, pregnancy and birth, older adults, behavioral emergencies and responder safety</li></ul><h5>Designed for learning</h5><p>Twenty-five figures, numbered procedure boxes, illustrative cases, review questions with answers, a 68-term glossary and an index make the content easy to revisit. Procedures state their scope, and the book tells you to follow your local protocol whenever it differs.</p><h5>Who it serves</h5><h5>Written to be read and revisited</h5><p>The writing is plain and direct, with complete explanations in place of fragments, so a first-time reader can follow the reasoning and a returning reader can find the step they need. Entries for children, older adults and pregnancy show how the usual approach changes, while the early Parts give the shared method that the later Parts build on. The result is a connected course in the fundamentals, not a loose collection of lists.</p><p>Illustrative cases close each Part and are fictional composites written for teaching. They follow a call from arrival to handover, showing how safety, assessment, treatment and communication fit together in a single response.</p><p>Nursing, paramedic, EMT and allied health students, and new responders in United States settings. It is a study and reference book, not a substitute for supervised training, and it gives no medicine doses.</p><p><b>Keep it close during your course, then use it to refresh the fundamentals before a placement or a skills check.</b></p>
+<h4>One compact reference for the whole emergency approach.</h4><p><b>Emergency Nursing Fundamentals</b> brings the core of emergency care into a single illustrated guide of about 180 pages. It follows the way responders actually think: safety, triage, assessment, then the specific problem, with a clear note on scope of practice and when to call for more help.</p><h5>Six Parts, 33 entries</h5><ul><li><b>The emergency approach:</b> scene safety, triage and acuity, the primary survey, history and vital signs, consent, handover and documentation</li><li><b>Airway and breathing:</b> airway anatomy, obstruction, bag-valve-mask ventilation, asthma, COPD, pneumonia and anaphylaxis</li><li><b>Cardiac emergencies and resuscitation:</b> chest pain, dangerous rhythms, CPR, the AED and shock</li><li><b>Trauma, burns and environmental emergencies:</b> bleeding, head, spine and chest injuries, fractures, burns, heat and cold</li><li><b>Medical emergencies:</b> altered mental status, stroke, seizures, sepsis, poisoning and abdominal pain</li><li><b>Special populations and safety:</b> children, pregnancy and birth, older adults, behavioral emergencies and responder safety</li></ul><h5>Designed for learning</h5><p>Twenty-five figures, numbered procedure boxes, illustrative cases, review questions with answers, a 68-term glossary and an index make the content easy to revisit. Scope Note boxes mark the limits of your role, and the book tells you to follow your local protocol whenever it differs.</p><h5>Written to be read and revisited</h5><p>The writing is plain and direct, with complete explanations in place of fragments, so a first-time reader can follow the reasoning and a returning reader can find the step they need. Entries for children, older adults and pregnancy show how the usual approach changes, while the early Parts give the shared method that the later Parts build on. The result is a connected course in the fundamentals, not a loose collection of lists.</p><p>Illustrative cases close each Part and are fictional composites written for teaching. They follow a call from arrival to handover, showing how safety, assessment, treatment and communication fit together in a single response.</p><h5>Who it serves</h5><p>Nursing, paramedic, EMT and allied health students, and new responders in United States settings. It is a study and reference book, not a substitute for supervised training, and it gives no medicine doses.</p><p><b>Keep it close during your course, then use it to refresh the fundamentals before a placement or a skills check.</b></p>
 ```
 
 ## 14. Comparison
@@ -191,7 +191,7 @@ Keep it close during your course, then use it to refresh the fundamentals before
 
 ## 15. Recommended final description, readable
 
-*423 words.*
+*402 words.*
 
 **Your first emergency shift will not wait for you to feel ready.**
 
@@ -209,17 +209,17 @@ A patient is struggling to breathe, another is bleeding, and a family member is 
 
 **Built for study and quick recall**
 
-Six Parts and 45 numbered entries make topics easy to find. Twenty-five figures show anatomy, decision paths and technique. Safety, Red Flags and Scope Note boxes mark what matters most. Every Part closes with an illustrative case, a summary of care priorities and eight review questions with answers. A 68-term glossary and an index finish the book.
-
-**Who it is for**
+Six Parts and 33 numbered entries make topics easy to find. Twenty-five figures show anatomy, decision paths and technique. Safety, Red Flags and Scope Note boxes mark what matters most. Every Part closes with an illustrative case, a summary of care priorities and eight review questions with answers. A 68-term glossary and an index finish the book.
 
 **Why the order matters**
 
-Most mistakes in the first minutes of an emergency come from skipping a step, not from missing a rare fact. Each entry gives the reason behind its steps, so you understand why airway comes first, why a scene check comes before everything, and why a patient who looks well can still be sick. Understanding the reason helps you remember the sequence and adapt when a real patient does not match the picture in your mind.
+Each entry gives the reason behind its steps, so you understand why a scene check comes before everything, why the primary survey runs in a fixed order, and why a patient who looks well can still be sick. Knowing the reason makes the sequence easier to remember.
 
 **Clear limits, honest scope**
 
-Every procedure states its scope, tells you when to stop and when to call for more help. The book also says plainly what it leaves out, such as medicine amounts, intravenous access, reading heart tracings and advanced airway skills, so you always know where the guide ends and your training begins.
+Scope Note boxes mark the limits of your role, and procedures tell you when to stop and when to call for more help. The book also says plainly what it leaves out, such as medicine amounts, intravenous access, detailed heart tracing interpretation and advanced airway skills, so you always know where the guide ends and your training begins.
+
+**Who it is for**
 
 Nursing, paramedic, EMT and allied health students, and new responders who want a clear first guide to emergency care. It is written in plain language for United States practice. It gives no medicine doses and does not replace your course, instructor, local protocol or medical direction.
 
@@ -227,23 +227,23 @@ Open it at Part 1, learn the order of thinking, and carry it into your next lab,
 
 ## 16. Recommended final description, KDP HTML
 
-*2663 characters including tags (limit 4,000).*
+*2549 characters including tags (limit 4,000).*
 
 ```html
-<h4>Your first emergency shift will not wait for you to feel ready.</h4><p>A patient is struggling to breathe, another is bleeding, and a family member is asking what is happening. In those moments you need a clear order of thinking more than a long chapter. <b>Emergency Nursing Fundamentals</b> gives you that order in a compact, illustrated guide: make the scene safe, sort who cannot wait, assess in a fixed sequence, then treat the problem in front of you.</p><h5>What this guide helps you do</h5><ul><li>Check a scene for danger before you touch a patient</li><li>Sort patients by urgency using five levels of acuity</li><li>Work through the primary and secondary survey in order</li><li>Recognize breathing trouble, anaphylaxis, chest pain, stroke, seizure, sepsis and shock</li><li>Follow numbered steps for CPR, AED use, choking, bleeding control and splinting</li><li>Adjust your approach for children, pregnancy, older adults and behavioral emergencies</li><li>Hand over a patient clearly and reassess as things change</li></ul><h5>Built for study and quick recall</h5><p>Six Parts and 45 numbered entries make topics easy to find. Twenty-five figures show anatomy, decision paths and technique. Safety, Red Flags and Scope Note boxes mark what matters most. Every Part closes with an illustrative case, a summary of care priorities and eight review questions with answers. A 68-term glossary and an index finish the book.</p><h5>Who it is for</h5><h5>Why the order matters</h5><p>Most mistakes in the first minutes of an emergency come from skipping a step, not from missing a rare fact. Each entry gives the reason behind its steps, so you understand why airway comes first, why a scene check comes before everything, and why a patient who looks well can still be sick. Understanding the reason helps you remember the sequence and adapt when a real patient does not match the picture in your mind.</p><h5>Clear limits, honest scope</h5><p>Every procedure states its scope, tells you when to stop and when to call for more help. The book also says plainly what it leaves out, such as medicine amounts, intravenous access, reading heart tracings and advanced airway skills, so you always know where the guide ends and your training begins.</p><p>Nursing, paramedic, EMT and allied health students, and new responders who want a clear first guide to emergency care. It is written in plain language for United States practice. It gives no medicine doses and does not replace your course, instructor, local protocol or medical direction.</p><p><b>Open it at Part 1, learn the order of thinking, and carry it into your next lab, placement or shift.</b></p>
+<h4>Your first emergency shift will not wait for you to feel ready.</h4><p>A patient is struggling to breathe, another is bleeding, and a family member is asking what is happening. In those moments you need a clear order of thinking more than a long chapter. <b>Emergency Nursing Fundamentals</b> gives you that order in a compact, illustrated guide: make the scene safe, sort who cannot wait, assess in a fixed sequence, then treat the problem in front of you.</p><h5>What this guide helps you do</h5><ul><li>Check a scene for danger before you touch a patient</li><li>Sort patients by urgency using five levels of acuity</li><li>Work through the primary and secondary survey in order</li><li>Recognize breathing trouble, anaphylaxis, chest pain, stroke, seizure, sepsis and shock</li><li>Follow numbered steps for CPR, AED use, choking, bleeding control and splinting</li><li>Adjust your approach for children, pregnancy, older adults and behavioral emergencies</li><li>Hand over a patient clearly and reassess as things change</li></ul><h5>Built for study and quick recall</h5><p>Six Parts and 33 numbered entries make topics easy to find. Twenty-five figures show anatomy, decision paths and technique. Safety, Red Flags and Scope Note boxes mark what matters most. Every Part closes with an illustrative case, a summary of care priorities and eight review questions with answers. A 68-term glossary and an index finish the book.</p><h5>Why the order matters</h5><p>Each entry gives the reason behind its steps, so you understand why a scene check comes before everything, why the primary survey runs in a fixed order, and why a patient who looks well can still be sick. Knowing the reason makes the sequence easier to remember.</p><h5>Clear limits, honest scope</h5><p>Scope Note boxes mark the limits of your role, and procedures tell you when to stop and when to call for more help. The book also says plainly what it leaves out, such as medicine amounts, intravenous access, detailed heart tracing interpretation and advanced airway skills, so you always know where the guide ends and your training begins.</p><h5>Who it is for</h5><p>Nursing, paramedic, EMT and allied health students, and new responders who want a clear first guide to emergency care. It is written in plain language for United States practice. It gives no medicine doses and does not replace your course, instructor, local protocol or medical direction.</p><p><b>Open it at Part 1, learn the order of thinking, and carry it into your next lab, placement or shift.</b></p>
 ```
 
-## 17. Initial keyword shortlist (26 phrases)
+## 17. Initial keyword shortlist (29 phrases)
 
 | # | Phrase | Result |
 |---|---|---|
-| 1 | primary survey and secondary survey | Selected |
+| 1 | primary and secondary survey | Selected |
 | 2 | triage and acuity levels | Selected |
 | 3 | CPR AED and choking in infants and children | Selected |
 | 4 | bleeding control and tourniquet use | Selected |
 | 5 | stroke sepsis and anaphylaxis recognition | Selected |
-| 6 | study book for first responders | Selected |
-| 7 | emergency department clinical rotation | Selected |
+| 6 | scene safety and vital signs | Selected |
+| 7 | handover and documentation skills | Selected |
 | 8 | emergency nursing book | Rejected: repeats title words; broad |
 | 9 | emergency nursing for dummies | Rejected: autocomplete result, but it imitates a trademarked book series |
 | 10 | emergency nursing book master the essential basics | Rejected: autocomplete result tied to another book's title wording |
@@ -251,7 +251,7 @@ Open it at Part 1, learn the order of thinking, and carry it into your next lab,
 | 12 | emt study coloring book | Rejected: unrelated format (coloring book) |
 | 13 | paramedic books under $30 | Rejected: price wording is not allowed |
 | 14 | first aid and cpr book | Rejected: 'book' is a generic word KDP advises against; lay first-aid audience |
-| 15 | ABCDE assessment | Rejected: appears once in the manuscript; weak fit |
+| 15 | ABCDE assessment | Rejected: Entry 1.3 teaches the ABCDE order, but the string appears only once in the text, no autocomplete evidence, and the letters read as an abbreviation not a search phrase |
 | 16 | nursing student emergency tips | Rejected: vague, no evidence |
 | 17 | quick reference emergency care | Rejected: could mislead the reader into expecting a pocket reference |
 | 18 | nursing pocket guide | Rejected: 'pocket' implies a different format and imitates series wording |
@@ -264,26 +264,28 @@ Open it at Part 1, learn the order of thinking, and carry it into your next lab,
 | 25 | stop the bleed | Rejected: a named training program; possible protected term |
 | 26 | emergency medicine made easy | Rejected: imitates an established 'Made Easy' series |
 | 27 | emergency nursing at a glance | Rejected: a competitor's title |
+| 28 | study book for first responders | Rejected after review: 'book' is a generic word KDP advises against and 'first responders' is not used in the manuscript |
+| 29 | emergency department clinical rotation | Rejected after review: repeats 'emergency' from the title, 'rotation' is not in the manuscript, no evidence |
 
 ## 18. Seven recommended backend keyword phrases
 
 Enter one per field, exactly as shown. Each is under 50 characters (the KDP keyword page gives no limit; the field shows its own counter, so check it).
 
-1. primary survey and secondary survey
+1. primary and secondary survey
 2. triage and acuity levels
 3. CPR AED and choking in infants and children
 4. bleeding control and tourniquet use
 5. stroke sepsis and anaphylaxis recognition
-6. study book for first responders
-7. emergency department clinical rotation
+6. scene safety and vital signs
+7. handover and documentation skills
 
 These are evidence-based recommendations and potential search pathways. They are not guaranteed ranking keywords, and the evidence is thinner than usual because Amazon results pages could not be opened this session.
 
 ## 19. Keyword evidence table
 
-**primary survey and secondary survey**
+**primary and secondary survey**
 
-- Manuscript link: Entries 1.3 and 1.4 teach both surveys (primary survey appears 42 times in the text)
+- Manuscript link: Entries 1.3 and 1.4 teach both surveys (the phrase 'primary survey' appears 42 times in the chapters)
 - Target reader: Student who must perform a structured patient assessment
 - Likely intent: Learn the assessment sequence
 - Autocomplete evidence: Not seen: the typed prefix 'primary survey' returned an empty list
@@ -319,7 +321,7 @@ These are evidence-based recommendations and potential search pathways. They are
 
 **bleeding control and tourniquet use**
 
-- Manuscript link: Entry 4.2 has a tourniquet procedure (the word appears 29 times)
+- Manuscript link: Entry 4.2 has a tourniquet procedure (the word appears 31 times in the chapters)
 - Target reader: Responder wanting bleeding control steps
 - Likely intent: Learn bleeding control
 - Autocomplete evidence: Not tested at the typed prefix
@@ -341,28 +343,28 @@ These are evidence-based recommendations and potential search pathways. They are
 - Weakness: Combined phrase is unusual; individual words are heavily used in medical titles
 - Confidence: Low to Medium
 
-**study book for first responders**
+**scene safety and vital signs**
 
-- Manuscript link: Written for new responders and students
-- Target reader: EMT and paramedic students
-- Likely intent: Find a study aid
-- Autocomplete evidence: Seen: 'paramedic study book' appeared for the prefix 'paramedic study'; 'emt study coloring book' for 'emt study'
-- Search-result evidence: Autocomplete shows wording only, not volume
-- Bestseller or comparable evidence: None seen this session
-- Reason: Uses a phrase customers type
-- Weakness: 'first responders' is broader than the audience; 'coloring book' is an unrelated format
-- Confidence: Medium
-
-**emergency department clinical rotation**
-
-- Manuscript link: The book targets students in first emergency placements and courses (How to Use This Book)
-- Target reader: Nursing and allied health students starting a clinical rotation
-- Likely intent: Find prep material before clinical work
+- Manuscript link: Entries 1.1 (scene safety) and 1.4 (vital signs)
+- Target reader: Student learning the first steps of any response
+- Likely intent: Find a guide to the first checks
 - Autocomplete evidence: Not seen
-- Search-result evidence: Web search for emergency nursing quick-reference books for placements returned a title built for this need; US wording ('clinical rotation') chosen over UK 'placement'
-- Bestseller or comparable evidence: Comparable title exists for placement use
-- Reason: Names the real situation of the reader
-- Weakness: Longest phrase; no Amazon autocomplete or results evidence; overlaps 'emergency' in the title
+- Search-result evidence: Not seen this session
+- Bestseller or comparable evidence: None seen this session
+- Reason: Two core topics, no title or subtitle words, no generic word
+- Weakness: No evidence of search demand; wording is descriptive, not proven
+- Confidence: Low
+
+**handover and documentation skills**
+
+- Manuscript link: Entry 1.5 (communication, consent, scope of practice, handover, reassessment and documentation)
+- Target reader: Student learning to report a patient clearly
+- Likely intent: Find help with handover and charting
+- Autocomplete evidence: Not seen
+- Search-result evidence: Not seen this session; the earlier Emergency Nursing bestseller list (market-research.md) included a charting guide
+- Bestseller or comparable evidence: Charting guide seen in the Emergency Nursing top 7 on 2026-10-28
+- Reason: Distinct topic, no title words, matches a real entry
+- Weakness: Could attract general charting shoppers
 - Confidence: Low
 
 ## 20. Research record
@@ -393,10 +395,10 @@ The category names below are not verified against KDP's current category list th
 | No medical cure or outcome claim; no promise to replace training | PASS: the description states the opposite |
 | HTML tags limited to p, b, h4, h5, ul, li and every tag closed | PASS |
 | Description length under 4,000 characters including tags | PASS (all four) |
-| Exactly seven keywords, none repeating title words as a single word list, no program names, no generic 'book' | PASS |
+| Exactly seven keywords; none uses the generic word 'book' or a program name; 'survey' and 'assessment' wording checked against the title and subtitle | PASS after review |
 | No keyword list disguised as sentences | PASS |
-| Claims match the manuscript (45 entries, 25 figures, 68 glossary terms, 179 pages, no medicine doses) | PASS, counted from the files |
-| Independent compliance review | See section 22 |
+| Claims match the manuscript (33 entries, 25 figures, 68 glossary terms, 179 pages, no medicine doses) | PASS, recounted from the files after review (33 entries, not 45) |
+| Independent compliance review | Done 2026-10-29: REVISE, 13 findings; items 1 to 9 and 13 fixed here (compliance/kdp-metadata.md). Items 10 (categories) and 11 (cover match) stay open until the owner chooses categories and the cover exists. Item 12: clinician clearance is recorded on the owner's word only, and no clinician-reviewed wording is used |
 
 ## 22. Research limitations and disclosures
 
@@ -404,5 +406,5 @@ The category names below are not verified against KDP's current category list th
 - Autocomplete came from Amazon's suggestion service, not from typing in the search box, and it returned few suggestions. Autocomplete shows wording only, not volume, competition or buyer intent.
 - Keyword evidence is therefore weaker than the framework asks for; confidence is Medium or Low for every phrase.
 - The KDP keyword help page gives no per-field character limit; third-party sources say 50. Check the KDP field counter.
-- The page counts and figures in the descriptions were counted from the files on 2026-10-29. Update them if the book changes.
+- The page counts and figures in the descriptions were counted from the files on 2026-10-29 (33 numbered entries, 25 figures, 68 glossary terms, 179 pages). Update them if the book changes.
 - If you can open Amazon in your own browser, type each of the seven phrases and see whether the results are relevant books; replace any phrase that returns unrelated products.

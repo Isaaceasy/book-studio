@@ -21,7 +21,7 @@ Table: Children's resting ranges, reference copy (Entry 6.1)
 | School age (6 to 11 years) | 18 to 25 | 75 to 118 |
 | Adolescent (12 to 15 years) | 12 to 20 | 60 to 100 |
 
-Sources differ slightly, and newborns in the first month have their own ranges; follow the values in your protocol.
+Sources differ, and newborns in the first month have their own ranges; follow the values in your protocol.
 
 Table: Glasgow Coma Scale layout (Entry 1.3)
 

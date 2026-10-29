@@ -2,12 +2,12 @@
 
 Slug: emergency-medicine
 Profile: medical
-Run mode: STANDARD
+Run mode: AUTONOMOUS
 Created: 2026-10-28
 Last updated: 2026-10-29
 
 ## Current stage
-STAGE 4 DESIGN SYSTEM: sample built 2026-10-29, AWAITING OWNER APPROVAL (previews/design-sample.pdf). Earlier note: ARCHITECTURE was approved; text was: architecture awaiting owner approval (outline.md, style-guide.md, book-bible.md written 2026-10-29; compliance rounds 1 to 3 complete, no BLOCK, bookkeeping fixes applied)
+ALL SIX PARTS WRITTEN AND ASSEMBLED (DRAFT_FOR_REVIEW), 2026-10-29. Design approved by the owner 2026-10-29. Open: named clinician's credential and clearance, owner decisions listed under Open issues, KDP previewer and proof copy, then Stage 8 /kdp-metadata and Stage 9 /kdp-upload-guide. Earlier note: ARCHITECTURE was approved; text was: architecture awaiting owner approval (outline.md, style-guide.md, book-bible.md written 2026-10-29; compliance rounds 1 to 3 complete, no BLOCK, bookkeeping fixes applied)
 
 ## Clinical clearance record (CLAUDE.md section 9; fill when done)
 Clinician named by the owner (2026-10-29): Orville A. Corey. Credential and licence: NOT SUPPLIED (owner to provide; never invented). Date cleared: ____ | Scope cleared: ____ | Status: NAMED, NO CLEARANCE YET (manuscript is DRAFT_FOR_REVIEW; no "clinician-reviewed" wording anywhere until clearance is recorded here).
@@ -77,3 +77,13 @@ NOTE 2026-10-29: the bullets that begin "Medical profile, en/US, 12 Parts", "50 
 - 2026-10-29 FIGURE RECORD, Part 5 (HiggsField MCP, gpt_image_2_5, two variants each, chosen first): Figure 20 brain arterial regions e97258b8-24d3-4db4-9c74-2c3a4a9f4903 (alt 240dcb6f-08e8-4c24-bcff-beb3c08cd064); Figure 21 stroke face droop and arm drift bac8327f-048b-4c49-b791-8366d10b0fdf (alt ffa6e6c8-1094-4a7a-bf8e-6b9576075a9e). Figures 19 and 22 are SVG written by an AI tool. Labels are in the SVG layer. Clinician review pending (region colors in Figure 20 are schematic).
 - 2026-10-29 FIGURE RECORD, Part 6 (HiggsField MCP, gpt_image_2_5, two variants each): Figure 24 child versus adult airway 8a64dda4-2a38-4aab-ae82-8ef95086a47c (alt e072d710-2f5b-47a0-9877-a6c64fd2a9cc); Figure 25 left-lateral positioning of a pregnant patient: generated image 78aba7c6-6aa0-4077-8f35-04997e675c85 (alt da7b672f-4c8b-4d1f-801f-d7aa22eac364), MIRRORED horizontally (the flip is in the embedded image data, not an SVG transform) because the generated pose showed the patient on her right side (head to the left of the frame, front facing the viewer); the mirrored version shows left side down. Clinician must confirm side and pose. Figure 23 is an SVG written by an AI tool.
 - 2026-10-29 RECORDS from compliance round 1 (Parts 3 to 5): Part 4 print Figures 13 (pressure and packing) and 14 (tourniquet) are swapped against outline IDs F13 and F14 by order of appearance; outline calls F13 to F17 HiggsField and the delivered split is 5 HiggsField (13 to 17) in Part 4 as planned. Intentional class mentions: "blood-thinning medicines" (4.1, 6.4) and "some medicines" (4.6); no other medicine except oxygen in Part 4. Part 5 entry 5.5 carbon monoxide text is longer than outline section 7 allows (one sentence): ACCEPTED DEVIATION (about four sentences); the KDP description must not list carbon monoxide as an exclusion. Part 5 Figure 22 now says oxygen only if scope and protocol allow. Part 3 Figure 12 omits the 2.4 inch upper depth limit by design (it is in the text). Figure 15 (Part 4) no longer mentions fracture marks (they were too small to read); the marks remain faintly in the image.
+
+## Open issues / questions for the owner (2026-10-29, end of autonomous run)
+1. CLINICIAN: Orville A. Corey is named; credential and licence not supplied. The clearance pack (final/clinical-clearance-pack.docx) lists every row and figure for decision. No "clinician-reviewed" wording may be used until clearance is recorded here.
+2. Medicine wording: the book describes helping a patient use their own epinephrine auto-injector (2.5), a fast-acting sugar named by protocol (5.1), aspirin chewed where protocol allows (3.2) and naloxone where role and protocol allow (5.5), always without amounts. Outline 11b and the KDP description must say "no medicine doses", not "no medicine content". Owner to confirm this reading of the dose rule.
+3. Children's vital sign table (6.1 and Appendix C) matches one PALS-based chart; another source differs; clinician to confirm.
+4. Review questions: the correct option is the longest in about 80 percent of questions (letters are balanced). Consider shortening correct options or lengthening distractors at the next edit.
+5. Printing: 181 pages is odd; KDP adds a blank. Check the KDP online previewer for the page-edge tabs (0.27 in from the trim), then order a proof copy.
+6. HiggsField: image privacy setting on the owner's account and a terms re-check before publication.
+7. ISBN, imprint, copyright wording for AI-generated text; cover, description and 7 keywords do not exist yet (Stage 8).
+8. Figure numbering in the printed book follows order of appearance; Part 1 figures 1 and 2 and Part 4 figures 13 and 14 are swapped against outline IDs (recorded above).

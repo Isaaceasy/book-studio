@@ -4,7 +4,7 @@
 
 [A]{.letter}
 
-**Abdominal thrusts.** Quick inward and upward presses on the upper abdomen used to dislodge an object from the airway of a conscious adult or child who is choking.
+**Abdominal thrusts.** Quick inward and upward presses on the upper abdomen used to dislodge an object from the airway of a conscious adult or child over 1 year who is choking.
 
 **Acute coronary syndrome (ACS).** A group of conditions in which blood flow to part of the heart muscle falls suddenly; the heart attack is the best known.
 
@@ -30,7 +30,7 @@
 
 **Cardiac arrest.** The sudden stop of effective heartbeat; the patient is unresponsive and not breathing normally.
 
-**Central cyanosis.** A blue or gray tint to the lips and tongue caused by a low level of oxygen; a late sign.
+**Central cyanosis.** A blue or gray tint to the lips and tongue caused by a low level of oxygen in the blood; a late sign.
 
 **Compensated shock.** The early stage of shock, in which the body keeps the blood pressure up by speeding the heart and narrowing vessels.
 
@@ -58,7 +58,7 @@
 
 **Epiglottis.** A flap of tissue that covers the entrance to the larynx when swallowing.
 
-**Epinephrine (adrenaline).** The first-line medicine for anaphylaxis, carried by some patients in a prefilled auto-injector.
+**Epinephrine (adrenaline).** The first-line medicine for anaphylaxis, carried by some patients in a prefilled auto-injector. Giving medicines is outside many roles; follow your scope and medical direction.
 
 **Exposure.** The last step of the primary survey: exposing the body as needed to look for injuries while protecting dignity and warmth.
 
@@ -76,7 +76,7 @@
 
 [H]{.letter}
 
-**Heat exhaustion.** Illness from heat with heavy sweating, weakness, headache and nausea.
+**Heat exhaustion.** Illness from heat with heavy sweating, tiredness, headache and nausea.
 
 **Heat stroke.** A dangerous rise in body temperature with confusion, collapse or seizure; an emergency.
 
@@ -84,7 +84,7 @@
 
 **Hypoglycemia.** Low blood glucose; for many people with diabetes, below 70 mg/dL (3.9 mmol/L).
 
-**Hypothermia.** A fall in body temperature that begins with shivering and clumsiness and can progress to drowsiness.
+**Hypothermia.** An abnormally low body temperature that begins with shivering and clumsiness and can progress to drowsiness.
 
 **Hypoxia.** A low level of oxygen in the tissues.
 
@@ -106,7 +106,7 @@
 
 [N]{.letter}
 
-**Naloxone.** A medicine that reverses the effects of an opioid overdose.
+**Naloxone.** A medicine that reverses the effects of an opioid overdose. Giving medicines is outside many roles; follow your scope and medical direction.
 
 **Non-rebreather mask.** An oxygen mask with a reservoir bag that delivers a high concentration of oxygen to a breathing patient.
 
@@ -134,7 +134,7 @@
 
 **Respiratory failure.** The stage at which breathing can no longer meet the body's needs.
 
-**Rule of nines.** A method of estimating the share of the body surface burned, using regions of about 9 percent.
+**Rule of nines.** A method of estimating the share of the body surface burned, using regions of 9 percent or multiples of 9 percent, with 1 percent for the genital area.
 
 [S]{.letter}
 
@@ -152,7 +152,7 @@
 
 **Standard precautions.** The basic infection-control measures used with every patient, including hand hygiene and protective equipment.
 
-**Stridor.** A high-pitched sound on breathing in that suggests a significant partial blockage of the airway.
+**Stridor.** A high-pitched sound, most often heard on breathing in, that suggests a significant partial blockage of the airway.
 
 **Stroke.** Damage to part of the brain from a blocked or burst blood vessel.
 

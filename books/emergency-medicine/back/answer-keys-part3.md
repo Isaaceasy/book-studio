@@ -2,7 +2,7 @@ Part 3 answer key (goes to Appendix A at assembly)
 
 1. C. In a heart attack, blood flow to part of the muscle is cut off; in cardiac arrest the heartbeat has stopped being effective, and a heart attack may or may not lead to it.
 2. A. Serious chest pain is treated as cardiac until a clinician shows otherwise, so you call early and keep the patient still; driving delays the call.
-3. B. A flat line in a patient who is awake and talking is almost certainly a loose lead or electrode, so you read the patient first.
+3. B. A flat line in a patient who is awake and talking is most likely a loose lead or an equipment problem, so you read the patient first.
 4. D. The recommended adult rate is 100 to 120 compressions a minute.
 5. A. Everyone must be clear of the patient before the shock so that nobody receives it.
 6. C. A fast heart rate with cool, pale skin is an early sign; warm hands with a strong pulse are not.

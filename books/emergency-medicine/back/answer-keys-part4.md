@@ -1,7 +1,7 @@
 Part 4 answer key (goes to Appendix A at assembly)
 
 1. B. Heavy bleeding can empty the circulation within minutes, so it is brought forward before the airway; your protocol sets the exact order.
-2. D. A fall from a height is a high-risk mechanism; the others rarely cause serious injury.
+2. D. A fall from a height is a high-risk mechanism; the others are usually low risk.
 3. A. Pressure acts on the vessel directly and is available to everyone.
 4. C. A tourniquet goes between the wound and the heart, a few inches above the wound and not over a joint.
 5. D. Spinal motion restriction means keeping the head, neck and trunk in line and limiting movement.

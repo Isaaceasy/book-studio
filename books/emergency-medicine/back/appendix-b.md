@@ -10,8 +10,6 @@
 
 **AVPU.** Alert, Voice, Pain, Unresponsive.
 
-**BP.** Blood pressure.
-
 **BVM.** Bag-valve-mask.
 
 **COPD.** Chronic obstructive pulmonary disease.
@@ -20,13 +18,11 @@
 
 **ED.** Emergency department.
 
-**EMS.** Emergency medical services.
-
 **EMT.** Emergency medical technician.
 
-**GCS.** Glasgow Coma Scale.
+**FAST.** Face, Arm, Speech, Time (a stroke screening reminder).
 
-**HR.** Heart rate.
+**GCS.** Glasgow Coma Scale.
 
 **MI.** Myocardial infarction (heart attack).
 

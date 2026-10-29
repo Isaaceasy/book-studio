@@ -6,6 +6,6 @@ This guide follows the order in which a responder thinks in an emergency: make t
 
 **Scope of practice.** What you may do depends on your license, certification, course and the rules of your service or school. Each procedure says so, and each tells you when to stop and call for help. When this book and your local protocol differ, follow your protocol.
 
-**What the boxes mean.** *Safety* boxes warn of harm from a wrong action. *Red Flags* boxes list signs that call for urgent help. *Scope Note* boxes mark limits of role or training. *Remember* boxes give one memory aid. *Care Priorities* boxes close each Part with the tie-breaking rules for competing problems. *Illustrative Case* boxes are fictional.
+**What the boxes mean.** *Safety* boxes warn of harm from a wrong action. *Red Flags* boxes list signs that call for urgent help. *Scope Note* boxes mark limits of role or training. *Remember* boxes give a memory aid. *Care Priorities* boxes close each Part with the tie-breaking rules for competing problems. *Illustrative Case* boxes are fictional.
 
-**What is not here.** This book gives no medicine doses. It does not teach intravenous access, giving medicines, reading heart tracings or advanced airway skills. It is not a course, and it does not replace one. Practice each skill on a manikin, with an instructor, first.
+**What is not here.** This book gives no medicine doses. It does not teach intravenous access, medicine amounts, reading heart tracings or advanced airway skills. It is not a course, and it does not replace one. Practice each skill on a manikin, with an instructor, first.

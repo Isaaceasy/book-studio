@@ -8,4 +8,4 @@ This guide follows a responder's order of thinking: make the scene safe, sort wh
 
 **What the boxes mean.** *Safety* boxes warn of harm from a wrong action. *Red Flags* boxes list signs that call for urgent help. *Scope Note* boxes mark limits of role or training. *Remember* boxes give a memory aid. *Care Priorities* boxes close each Part with tie-breaking rules. *Illustrative Case* boxes are fictional.
 
-**What is not here.** This book gives no medicine doses. It does not teach intravenous access, medicine amounts, reading heart tracings or advanced airway skills. Practice each skill on a manikin, with an instructor, first.
+**What is not here.** This book gives no medicine doses. It does not teach intravenous access, medicine amounts, full heart tracing (ECG) interpretation or advanced airway skills. Practice each skill on a manikin, with an instructor, first.

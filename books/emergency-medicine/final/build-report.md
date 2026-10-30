@@ -1,8 +1,8 @@
 # Build report: Emergency Nursing Fundamentals
-Built: 2026-10-29
+Built: 2026-10-30
 
 - Pages in interior PDF: 179
-- Words in the PDF text layer (approx., includes headers and numbers): 42791
+- Words in the PDF text layer (approx., includes headers and numbers): 42813
 - Trim: 5.0 x 8.0 in; margins top/bottom/inside/outside 0.65/0.7/0.65/0.6 in
 - Inside margin required for 179 pages (KDP table read 2026-10-29): 0.5 in
 - Fonts: 13 font resources; not embedded: ['None']

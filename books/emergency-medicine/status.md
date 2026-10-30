@@ -98,3 +98,7 @@ NOTE 2026-10-29: the bullets that begin "Medical profile, en/US, 12 Parts", "50 
 - Owner reports that Orville A. Corey reviewed the whole book and cleared it, with no outstanding corrections. Recorded on the owner's word; no written sign-off or credential details were supplied to me. Keep his written sign-off with the clearance pack.
 - DRAFT_FOR_REVIEW label removed from the file name. Final PDF: final/emergency-nursing-fundamentals-interior.pdf (179 pages).
 - Remaining: owner views the file in the KDP online previewer, orders a proof copy, Stage 8 (/kdp-metadata) and Stage 9 (/kdp-upload-guide).
+
+## 2026-10-30 Second compliance review
+- Report: compliance/second-review.md (metadata REVISE, manuscript REVISE, no BLOCK). Fixed: title length figure, ABCDE row, heart-tracing wording (ECG) in copyright, how-to-use and metadata, Entry 6.2 witnessed-collapse wording, stray medicines sentence removed, pad-spacing clause added to Entry 3.4. PDF rebuilt (179 pages).
+- Open for owner: copyright wording versus AI-generated content (rights claim), categories, cover match, KDP previewer and proof copy, written clinician sign-off.

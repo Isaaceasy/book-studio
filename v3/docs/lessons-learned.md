@@ -43,3 +43,5 @@ L18. **Cover scripting traps.** (a) Chromium blocks local file links when a page
 L19. **Back-cover copy must stand alone.** A sentence lifted from a description section ("Nursing, paramedic, EMT ... students ...") had no verb without its heading and read like a typo on the cover. Check cover copy as free-standing text, and record deliberate differences from the description. Lives in: `cover-design` Step 8 compliance.
 
 L20. **Competitor covers.** Look at the actual covers (a contact sheet is enough): the nursing niche was crowded with red, cartoon nurses, heartbeat lines and badges, which pointed to a calm dark poster concept. Lives in: `cms-research` Step 3 (cover notes).
+
+L21. **Geometric concepts need no AI art.** A cover concept built from simple shapes (discs, bands, blocks) is drawn by script: sharp at any size, no resolution or upscale problem, no AI-image disclosure for the art, no anatomy to check. Ask for the style change before spending image credits. Overlapping shapes hide labels: draw from the back forward and place each label in the visible part. Lives in: scripts/art_discs.py, cover-design Step 4.

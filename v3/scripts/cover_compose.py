@@ -121,7 +121,7 @@ def build_html(b, calc):
     front_bg = art_bg(b["art"]["front"]) if front_art else p["bg"]
     back_bg = art_bg(b["art"]["back"]) if back_art else p["bg"]
     # front art is scaled slightly smaller and sits low on the panel so the illustration never runs under the title block
-    front_bgcss = (f"background:{front_bg} url('{front_art}') center/cover no-repeat;" if assemble else
+    front_bgcss = (f"background:{front_bg} url('{front_art}') center/cover no-repeat;" if (assemble or b.get("art_fit") == "cover") else
                    f"background:{front_bg} url('{front_art}') 50% 100%/86% auto no-repeat;") if front_art else f"background:{front_bg};"
     spine_bg = front_bg if plain_spine else p["accent"]
     shade_div = "" if assemble else f'<div class="shade"></div>'
@@ -146,7 +146,7 @@ def build_html(b, calc):
     .back-text h2 {{ font-size:18pt; margin:0 0 .15in 0; line-height:1.15; }}
     .back-text p {{ font-size:10.5pt; line-height:1.4; margin:0 0 .1in 0; text-align:left; }}
     .spine {{ display:flex; align-items:center; justify-content:center; }}
-    .spine span {{ writing-mode:vertical-rl; white-space:nowrap; font-weight:700; font-size:{min(14, max(8, calc['spine_in']*72*0.5)):.1f}pt; color:{p['title']}; letter-spacing:.04em; }}
+    .spine span {{ writing-mode:vertical-rl; white-space:nowrap; font-weight:700; font-size:{min(14, max(8, calc['spine_in']*72*0.5)):.1f}pt; color:{p.get('spine_text', p['title'])}; letter-spacing:.04em; }}
     """
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>
     <!-- back -->
@@ -165,7 +165,7 @@ def build_html(b, calc):
     <!-- front -->
     <div class="abs" style="left:{pan['front']['x']}in;top:0;width:{pan['front']['w']+bleed}in;height:{H}in;{front_bgcss}">
       {shade_div}
-      {'' if assemble else f'''<div style="position:absolute;left:{safe}in;right:{safe+bleed}in;top:{bleed+safe+0.35}in;bottom:{bleed+safe}in;">
+      {'' if assemble else f'''<div style="position:absolute;left:{safe}in;{('width:'+str(b['text_width_in'])+'in;') if b.get('text_width_in') else 'right:'+str(safe+bleed)+'in;'}top:{bleed+safe+0.35}in;bottom:{bleed+safe}in;">
         <div class="title">{html.escape(b['title'])}</div>
         <div class="subtitle" style="margin-top:.18in">{html.escape(b.get('subtitle',''))}</div>
         <div class="author" style="top:auto;bottom:0;">{html.escape(b['author'])}</div>
@@ -183,6 +183,8 @@ def front_only_html(b, trim_w, trim_h, bleed, with_bleed=True):
     bgc = art_bg(b["art"]["front"]) if art else p["bg"]
     if art and b.get("mode") == "assemble":
         bgcss = f"background:{bgc} url('{art}') center/cover no-repeat;"
+    elif art and b.get("art_fit") == "cover":
+        bgcss = f"background:{bgc} url('{art}') center/cover no-repeat;"
     elif art:
         # same placement as the wrap: art slightly smaller and low, so it never runs under the title block
         bgcss = f"background:{bgc} url('{art}') 50% 100%/86% auto no-repeat;"
@@ -192,7 +194,7 @@ def front_only_html(b, trim_w, trim_h, bleed, with_bleed=True):
     @page {{ size:{W}in {H}in; margin:0; }} html,body{{margin:0;}}
     .c{{ width:{W}in;height:{H}in;position:relative;{bgcss} font-family:'{f['body']}',Arial,sans-serif; }}
     .s{{ position:absolute;inset:0;background:rgba(0,0,0,{b['overlay_opacity']}); }}
-    .t{{ position:absolute;left:{pad}in;right:{pad}in;top:{pad+0.35}in; }}
+    .t{{ position:absolute;left:{pad}in;{('width:'+str(b['text_width_in'])+'in;') if b.get('text_width_in') else 'right:'+str(pad)+'in;'}top:{pad+0.35}in; }}
     .title{{ font-family:'{f['title']}';font-weight:800;font-size:{b['title_size_pt']}pt;line-height:1.04;color:{p['title']}; }}
     .sub{{ margin-top:.18in;font-size:{b['subtitle_size_pt']}pt;line-height:1.25;color:{p['subtitle']}; }}
     .a{{ position:absolute;left:{pad}in;right:{pad}in;bottom:{pad}in;font-weight:700;font-size:{b['author_size_pt']}pt;letter-spacing:.08em;text-transform:uppercase;color:{p['author']}; }}

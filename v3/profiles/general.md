@@ -14,7 +14,7 @@ For books outside the engineering and medical profiles (how-to guides, business,
 - Length: set in the brief (words or pages). No fixed 10,000-word floor, but never padded; the outline gives each chapter a word target within plus or minus 10 percent.
 - Chapter template: chosen by book type in the outline (how-to: problem, principles, method, mistakes, action plan; workbook: short teaching page, exercises, reflection; narrative: story arc with a lesson per chapter; children's: short text per spread with an illustration plan).
 - Images: raster images from the connected image tool are allowed (PNG, 300 dpi at print size); every AI-generated image is recorded for the Amazon AI-disclosure question. Keep images consistent in style across the book.
-- Formatting: the KDP PDF design system in `templates/interior.css` and `book.css`, margins checked against the page-count gutter table by the build script.
+- Formatting: the KDP PDF design system in the book's own `book.css` (built by `/design-interior` from the interior library; V3 has no default interior template), margins checked against the page-count gutter table by the build script.
 - Review gate: the owner approves each chapter; no external clinician or technical reviewer is required unless the content touches health, legal, financial or safety topics. If it does, flag those chapters to the owner and add the appropriate disclaimer; if the book is really medical or engineering, switch the profile.
 
 ## Health, legal, financial and safety content in a general book

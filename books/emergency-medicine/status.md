@@ -102,3 +102,8 @@ NOTE 2026-10-29: the bullets that begin "Medical profile, en/US, 12 Parts", "50 
 ## 2026-10-30 Second compliance review
 - Report: compliance/second-review.md (metadata REVISE, manuscript REVISE, no BLOCK). Fixed: title length figure, ABCDE row, heart-tracing wording (ECG) in copyright, how-to-use and metadata, Entry 6.2 witnessed-collapse wording, stray medicines sentence removed, pad-spacing clause added to Entry 3.4. PDF rebuilt (179 pages).
 - Open for owner: copyright wording versus AI-generated content (rights claim), categories, cover match, KDP previewer and proof copy, written clinician sign-off.
+
+## COVERS (cover-design test run, 2026-11-02)
+- Cover files built from V3 (covers/): ebook-cover.jpg (1600 x 2560), paperback-wrap.pdf (10.6554 x 8.25 in, spine 0.4054 in for 180 pages), front-cover.png, thumbnail-test.png, wrap-preview.png, cover-brief.yaml, cover-log.md, art/. Mechanical preflight PASS; independent compliance review REVISE (no Amazon blocker; fixes applied, open items listed in covers/cover-log.md).
+- AI disclosure facts update: cover art is AI-generated (HiggsField gpt_image_2_5, upscaled with bytedance_image_upscale); disclose with the interior images.
+- OPEN: clinician check of the cover illustration; proof copy; KDP previewer check; title/author string match across all files (cover-match item from the title gate stays open until then).

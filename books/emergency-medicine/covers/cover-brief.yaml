@@ -1,0 +1,56 @@
+# Cover brief: Emergency Nursing Fundamentals (cover-design test, 2026-11-02)
+# Strings equal books/emergency-medicine/book.yaml (title, subtitle, author). Concept B: dark anatomy poster.
+
+title: "Emergency Nursing Fundamentals"
+subtitle: "A Compact Illustrated Guide to Rapid Assessment, Priorities and Procedures for Nursing, Paramedic, EMT and Allied Health Students"
+author: "Mark Gerald Simon"
+
+trim: "5x8"
+pages: 180            # interior PDF has 179 pages; KDP adds a blank page to make it even, so the spine uses 180
+paper: "white"
+ink: "color"          # standard color
+paperback: true
+spine_text: true
+
+art:
+  front: "art/front-art-1-4k.png"
+  back: "art/back-art-2k.png"
+
+# Back cover copy: from final/KDP-metadata.md (approved wording, factual, no reviews, no prices, no claims)
+back_headline: "Your first emergency shift will not wait for you to feel ready."
+back_paragraphs:
+  - "A patient is struggling to breathe, another is bleeding, and a family member is asking what is happening. In those moments you need a clear order of thinking more than a long chapter. Emergency Nursing Fundamentals gives you that order in a compact, illustrated guide: make the scene safe, sort who cannot wait, assess in a fixed sequence, then treat the problem in front of you."
+  # COVER VARIANT (deliberate): the description's "Who it is for" sentence has no verb on its own; on the cover it opens with "Written for". The KDP description keeps its heading context. Recorded in cover-log.md.
+  - "Written for nursing, paramedic, EMT and allied health students, and new responders who want a clear first guide to emergency care. It is written in plain language for United States practice. It gives no medicine doses and does not replace your course, instructor, local protocol or medical direction."
+
+palette:
+  bg: "#101826"
+  title: "#ffffff"
+  subtitle: "#d9dde6"
+  author: "#f2c6cc"
+  accent: "#a31c2c"
+fonts:
+  title: "Inter"
+  body: "Inter"
+title_size_pt: 34
+subtitle_size_pt: 13
+author_size_pt: 14
+overlay_opacity: 0.0
+
+# Fonts: Inter (static TrueType files in v3/fonts), SIL Open Font License 1.1; embedded in the PDF. Confirm the licence file ships with the font files.
+# Full prompts are in covers/cover-log.md (front, back); the upscale jobs use no prompt.
+art_log:
+  - tool: "HiggsField"
+    model: "gpt_image_2_5"
+    job_id: "ec350de9-6c48-42b7-8d5a-eda068073ef7 (front, chosen; variant cca3ed5c-c69a-49f8-8aaa-d2a6d9bfc63a unused)"
+    date: "2026-11-02"
+    prompt: "Premium editorial book cover artwork for a medical education guide. Deep navy-charcoal background (#101826). One large, elegant, simplified anatomical illustration of the human airway, lungs and heart, drawn as refined crimson (#A31C2C) line art ... no text, no people."
+  - tool: "HiggsField"
+    model: "gpt_image_2_5"
+    job_id: "4a3a3dad-a51f-4074-80d5-f14cf4ca00c1 (back background)"
+    date: "2026-11-02"
+    prompt: "Subtle abstract back-cover background ... faint crimson contour lines and a barely visible heart outline ... no text."
+  - tool: "HiggsField upscale (bytedance_image_upscale)"
+    job_id: "eb2a3430-6e11-4703-a5e8-0efb936dce6c (front 4k), e66e0f69-7583-4caf-8bb9-21fe6ae684b5 (back 2k)"
+    date: "2026-11-02"
+    prompt: ""

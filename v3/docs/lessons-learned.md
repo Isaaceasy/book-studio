@@ -35,3 +35,11 @@ L14. **Git and cloud.** A cloud session starts from the pushed branch only. The 
 L15. **Quality traps in generated review questions.** About 80 percent of correct answers were the longest option. Add a length-bias check to the editorial audit. Lives in: `editorial-audit`.
 
 L16. **Collect decisions in one question block.** The owner answered best in short multiple-choice blocks of up to four questions; long chains of single questions slowed the run. Lives in: CLAUDE.md section 5.
+
+L17. **Cover art resolution.** HiggsField images came out at 688 x 1024 px, far below the 300 dpi a 5 x 8 in wrap needs (about 1575 x 2475 px). Use the upscale tool (4K) on the chosen art before composing, and record the upscale job ids; check the proof copy for softness. Lives in: `cover-design` Step 5.
+
+L18. **Cover scripting traps.** (a) Chromium blocks local file links when a page is built in memory: embed art as data URIs. (b) Variable system fonts become Type 3 in the PDF: embed static TrueType files. (c) Chromium rounds PDF page size up to whole points (0.012 in on this wrap): set the exact media box afterward (cropping into the bleed). (d) Spine text reads top to bottom for US books. (e) Keep the art lower on the front panel so illustrations never run under the title block. Lives in: `scripts/cover_compose.py`.
+
+L19. **Back-cover copy must stand alone.** A sentence lifted from a description section ("Nursing, paramedic, EMT ... students ...") had no verb without its heading and read like a typo on the cover. Check cover copy as free-standing text, and record deliberate differences from the description. Lives in: `cover-design` Step 8 compliance.
+
+L20. **Competitor covers.** Look at the actual covers (a contact sheet is enough): the nursing niche was crowded with red, cartoon nurses, heartbeat lines and badges, which pointed to a calm dark poster concept. Lives in: `cms-research` Step 3 (cover notes).

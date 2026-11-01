@@ -102,12 +102,15 @@ def page_css(cfg: dict) -> str:
 
 
 def read_css(book_dir: Path, root: Path) -> str:
-    base = root / "templates" / "interior.css"
-    css = base.read_text(encoding="utf-8") if base.exists() else ""
+    # V3 has NO default interior template: every book's complete design lives in books/<slug>/book.css,
+    # created by /design-interior from the interior library (interiors/INDEX.md and style cards).
     custom = book_dir / "book.css"
-    if custom.exists():
-        css += "\n" + custom.read_text(encoding="utf-8")
-    return css
+    if not custom.exists():
+        raise SystemExit(
+            f"No design found: {custom} is missing. Run /design-interior first; it builds book.css "
+            "from the interior library. V3 ships no default interior template."
+        )
+    return custom.read_text(encoding="utf-8")
 
 
 def md_to_docx(md: Path, out: Path, book_dir: Path, root: Path, toc=False):

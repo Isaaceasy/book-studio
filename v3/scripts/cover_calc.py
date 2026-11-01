@@ -19,8 +19,8 @@ import sys
 SPINE_PER_PAGE = {
     ("bw", "white"): 0.002252,      # KDP help page (2026-11-02): page count x 0.002252
     ("bw", "cream"): 0.0025,        # KDP help page (2026-11-02): page count x 0.0025
-    ("color", "white"): 0.002252,   # third-party source; VERIFY against KDP's color section
-    ("premium", "white"): 0.002252, # third-party source; VERIFY
+    ("color", "white"): 0.002252,   # KDP help G201953020 (2026-11-02): Standard Color paper
+    ("premium", "white"): 0.002347, # KDP help G201953020 (2026-11-02): Premium Color paper
 }
 BLEED_IN = 0.125                    # per outside edge (KDP default)
 SAFE_MARGIN_IN = 0.25               # keep text this far inside the trim edge (practical default)

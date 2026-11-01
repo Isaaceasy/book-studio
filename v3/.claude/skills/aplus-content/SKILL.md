@@ -23,3 +23,27 @@ GENIE Pro "A+ content graphics": a coordinated storefront visual set that explai
 ## Rules
 - Never upload or sign in. Never invent facts, reviews, awards or endorsements.
 - If a module type or size is unavailable to the owner's account, adapt the set and say so.
+
+## OWNER KIT (from `AI-PROMPT-2`, the A+ "Step-by-Step Amazon Marketing Design System"): how it is implemented here
+The owner's kit has 8 images and a 14-layout menu. Keep its structure; replace its weak points with checks and scripts.
+
+**The 8 images (sizes from the kit; VERIFY against Amazon's live A+ page before building, the live page wins):**
+1. Hero banner with the book cover mockup, 970 x 600 px.
+2. Open book showing interior pages, 970 x 600 px.
+3. Benefit banner, 970 x 300 px.
+4. Call-to-action banner with a small cover mockup, 970 x 300 px.
+5 to 8. Four square outcome tiles, 300 x 300 px each, one per top reader outcome.
+
+**Step 1 analysis first** (no design yet): genre, ideal buyer, top 4 things a reader will achieve (these become the 4 tiles), main cover colors with hex codes, emotional tone. Ask the owner to confirm before designing.
+
+**Layout menu (pick a DIFFERENT letter for images 1 to 4; vary the four tiles):** A split panel (color half and photo half); B curved white cutout over a full photo; C diagonal color slash across a photo; D circular spotlight with text wrapping; E torn paper reveal; F full-bleed photo with one floating text card; G grid or magazine block panels; H bold ribbon banner with whitespace; I framed border composition; J book as centerpiece with radial callouts; K before and after two-panel story; L vertical color stripe holding the headline; M angled overlapping parallelograms; N circular badge cluster with the book in the center. Tell the owner which layout each image uses and why; wait for "next".
+
+**Rules kept from the kit:** headline states what the reader will ACHIEVE, not what the book contains; a small eyebrow tag above the headline; one short supporting sentence; palette from the cover; no invented statistics, review counts, bestseller claims or trust badges, only true provable claims; word limits (image 1: 20 words of body copy; image 2: headline plus 3 short outcome callouts, 20 words; images 3 and 4: 15 words; tiles: 10 words each); "stop anywhere": after step 3 a usable A+ page exists.
+
+**Where V3 differs from the kit (on purpose):**
+- The kit asks an image tool to draw the cover mockup "exactly as provided". Image generators redraw covers and garble text. V3 composites the REAL cover pixels with `python scripts/mockup_cover.py covers/front-cover.png out.png --size 970x600 --bg "#hex" --side left` (stylized mockup with spine strip, perspective and shadow). For richer scenes generate a scene WITHOUT any book (HiggsField) and pass it as `--bg-image`.
+- Interior page images for image 2 come from real renders of the final PDF pages; composite them onto an open-book scene by script, never redrawn.
+- All headline and callout text is set by script (HTML to PNG) over the art, never generated inside the image. If any generated image shows lettering, treat it as decoration or regenerate without text and add clean text (the kit's own "Canva" tip, automated).
+- Photorealism is only claimed for real renders; label stylized mockups honestly.
+
+**Step 8 final check and export (kit):** correct dimensions per image type, file format and size limits (read live), what to do if text is garbled, tips for mobile sharpness (large type, high contrast, thumbnail test at 300 px wide).

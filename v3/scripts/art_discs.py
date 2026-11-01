@@ -67,7 +67,7 @@ def main():
         dia = int(W * S * 0.065)   # small enough that the row ends before the barcode zone (starts at about 56 percent of the panel width)
         gap = int(dia * 0.35)
         y = int(H * S * 0.90)
-        x0 = int(W * S * 0.07)
+        x0 = int(W * S * 0.10)
         for i in range(n):
             t = i / max(1, n - 1)
             col = lerp(lerp(c0, hex2rgb(a.bg), 0.55), lerp(c1, hex2rgb(a.bg), 0.4), t)

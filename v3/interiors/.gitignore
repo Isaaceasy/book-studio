@@ -1,0 +1,5 @@
+# Third-party reference files stay on the owner's computer (rights). Style cards (md) are committed.
+_inbox/**
+!_inbox/README.md
+library/*/reference/**
+!library/*/reference/.gitkeep

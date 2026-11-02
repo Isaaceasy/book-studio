@@ -174,12 +174,14 @@ def build_html(b, calc):
     </body></html>"""
 
 
-def front_only_html(b, trim_w, trim_h, bleed, with_bleed=True):
+def front_only_html(b, trim_w, trim_h, bleed, with_bleed=True, k=1.0, border=False):
+    """k scales type, padding and text width (the ebook is wider than the print trim, so k = ebook width / trim width);
+    border adds the thin grey frame KDP asks for on very light ebook covers."""
     p, f = b["palette"], b["fonts"]
     art = data_uri(b["art"]["front"]) if b.get("art", {}).get("front") else ""
     W = trim_w + (2 * bleed if with_bleed else 0)
     H = trim_h + (2 * bleed if with_bleed else 0)
-    pad = 0.45 + (bleed if with_bleed else 0)
+    pad = 0.45 * k + (bleed if with_bleed else 0)
     bgc = art_bg(b["art"]["front"]) if art else p["bg"]
     if art and b.get("mode") == "assemble":
         bgcss = f"background:{bgc} url('{art}') center/cover no-repeat;"
@@ -194,10 +196,11 @@ def front_only_html(b, trim_w, trim_h, bleed, with_bleed=True):
     @page {{ size:{W}in {H}in; margin:0; }} html,body{{margin:0;}}
     .c{{ width:{W}in;height:{H}in;position:relative;{bgcss} font-family:'{f['body']}',Arial,sans-serif; }}
     .s{{ position:absolute;inset:0;background:rgba(0,0,0,{b['overlay_opacity']}); }}
-    .t{{ position:absolute;left:{pad}in;{('width:'+str(b['text_width_in'])+'in;') if b.get('text_width_in') else 'right:'+str(pad)+'in;'}top:{pad+0.35}in; }}
-    .title{{ font-family:'{f['title']}';font-weight:800;font-size:{b['title_size_pt']}pt;line-height:1.04;color:{p['title']}; }}
-    .sub{{ margin-top:.18in;font-size:{b['subtitle_size_pt']}pt;line-height:1.25;color:{p['subtitle']}; }}
-    .a{{ position:absolute;left:{pad}in;right:{pad}in;bottom:{pad}in;font-weight:700;font-size:{b['author_size_pt']}pt;letter-spacing:.08em;text-transform:uppercase;color:{p['author']}; }}
+    .t{{ position:absolute;left:{pad}in;{('width:'+str(b['text_width_in'] * k)+'in;') if b.get('text_width_in') else 'right:'+str(pad)+'in;'}top:{pad+0.35 * k}in; }}
+    .title{{ font-family:'{f['title']}';font-weight:800;font-size:{b['title_size_pt'] * k:.1f}pt;line-height:1.04;color:{p['title']}; }}
+    .sub{{ margin-top:{.18 * k:.2f}in;font-size:{b['subtitle_size_pt'] * k:.1f}pt;line-height:1.25;color:{p['subtitle']}; }}
+    .a{{ position:absolute;left:{pad}in;right:{pad}in;bottom:{pad}in;font-weight:700;font-size:{b['author_size_pt'] * k:.1f}pt;letter-spacing:.08em;text-transform:uppercase;color:{p['author']}; }}
+    {'.c::after{content:"";position:absolute;inset:0;border:2px solid #8c8c8c;box-sizing:border-box;}' if border else ''}
     </style></head><body><div class="c">{'' if b.get('mode') == 'assemble' else '<div class="s"></div>'}
     {'' if b.get('mode') == 'assemble' else f'''<div class="t"><div class="title">{html.escape(b['title'])}</div><div class="sub">{html.escape(b.get('subtitle',''))}</div></div>
     <div class="a">{html.escape(b['author'])}</div>'''}</div></body></html>"""
@@ -239,7 +242,8 @@ def main():
         pg2.screenshot(path=str(out / "front-cover.png"))
         # ebook cover 1600 x 2560 (width x height), no bleed
         pg3 = br.new_page(viewport={"width": 1600 // 2, "height": 2560 // 2}, device_scale_factor=2)
-        eb = front_only_html(b, 1600 / 96 / 2 * 1.0, 2560 / 96 / 2 * 1.0, 0, False)
+        ebw = 1600 / 96 / 2
+        eb =front_only_html(b, ebw, 2560 / 96 / 2, 0, False, k=ebw / tw, border=True)
         pg3.set_content(eb)
         pg3.screenshot(path=str(out / "ebook-cover.png"))
         br.close()
@@ -251,6 +255,9 @@ def main():
     th_im = Image.open(out / "front-cover.png").convert("RGB")
     th_im.thumbnail((150, 240))
     th_im.save(out / "thumbnail-test.png")
+    eb_im = Image.open(out / "ebook-cover.jpg")
+    eb_im.thumbnail((100, 160))
+    eb_im.save(out / "ebook-thumbnail-test.png")
     print("Wrote:", ", ".join(sorted(os.listdir(out))))
     print("Spine width", calc["spine_in"], "in; wrap", calc["wrap_in"], "in. Now run preflight_cover.py and view the files.")
 

@@ -44,3 +44,10 @@ Basis: the competitor cover scan already logged above (16 Amazon results for "em
 - Title: "Emergency Nursing Fundamentals" follows the plain head-term plus role-word pattern common in the niche (a near-miss "Emergency Nursing Foundations" title exists on Amazon, recorded 2026-10-29); wording differs. Distance: ADEQUATE, watch item.
 - Interior vs the five owner-supplied reference books: borrowed ideas only (serif body with sans headings, one accent family, icon callouts, tinted table headers, edge tabs, running headers); body is single column where the references are two columns; no text, figure or layout copied pixel for pixel. Distance: ADEQUATE.
 Still for the owner: view the cover beside the top results on Amazon before upload.
+
+## FIXES FROM THE STYLE A REVIEW (2026-11-03, compliance/cover-style-a.md)
+- Disc letters moved inward: A to E now end 0.315 in from the trim on the wrap (was about 0.13 in; KDP minimum 0.125 in, studio rule 0.25 in). art_discs.py letter offset changed from 0.20 to 0.36 of the disc diameter.
+- Discs D and E darkened: end colour #F2C6CC changed to #DC8E9A (E is now about 2:1 against the ground).
+- Ebook: 4 px medium-grey border (#8C8C8C) added to the ebook JPEG only; title, subtitle, author and padding scaled by 1.67 so the title fills the same share of the width as on the print front; ebook-thumbnail-test.png made from the ebook JPEG.
+- Preflight (mechanical) PASS again. Wrap, front PNG and ebook re-rendered and looked at. Strings unchanged.
+- Still open: independent re-review of these edits has NOT been run; proof copy to check D, E and the letter margins; barcode-box and PDF colour-space check in KDP's previewer.

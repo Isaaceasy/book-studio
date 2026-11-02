@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Draw geometric cover art: a column of colored discs with letters (concept 'priority discs'), no AI involved.
 
 Usage:
@@ -62,7 +62,7 @@ def main():
             d.ellipse((cx - dia // 2, cy - dia // 2, cx + dia // 2, cy + dia // 2), fill=col)
             fnt = ImageFont.truetype(a.font, int(dia * 0.36))
             tc = (255, 255, 255) if lum(col) < 0.55 else (60, 20, 28)
-            d.text((cx - int(dia * 0.20), cy + int(dia * 0.20)), ch, font=fnt, fill=tc, anchor="mm")
+            d.text((cx - int(dia * 0.36), cy + int(dia * 0.20)), ch, font=fnt, fill=tc, anchor="mm")
     else:
         dia = int(W * S * 0.065)   # small enough that the row ends before the barcode zone (starts at about 56 percent of the panel width)
         gap = int(dia * 0.35)

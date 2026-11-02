@@ -20,7 +20,7 @@ Status: BUILT in V3 / NEXT / IDEA. Everything keeps the rule that Claude never p
 `/genie` conductor, `/ebook-build` + `ebook_build.py`, `/risk-analysis` + register, `doctor.py`, `manuscript_lint.py`, `status_keeper.py`, `release_pack.py`, `catalog.py`, `git_helper.py`, queue file. These replace NEXT items 1, 2, 9, 10 and part of 4 below.
 
 ## STILL TO BUILD (V4 backlog)
-1. `figure_pipeline.py` batch runner (HiggsField is an assistant tool, so the batch loop lives in the skill; a script can only write the Figure Log and contact sheet from the downloaded files).
+1. ~~`figure_pipeline.py`~~ BUILT 2026-11-02 (plan, check, log, sheet; batch loop lives in `/interior-images`; tested on the emergency book's 26 figures, not yet run with live generation).
 2. Keyword harvest sheet, ads bulk-sheet generator, scheduled research refresh, gate notifications.
 3. Mac test; EPUBCheck integration; translation pipeline; proof-copy checklist generator.
 

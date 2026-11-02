@@ -4,7 +4,8 @@ Slug: emergency-medicine
 Profile: medical
 Run mode: AUTONOMOUS
 Created: 2026-10-28
-Last updated: 2026-10-29
+Last updated: 2026-11-02
+Risk gate: R1 PASS WITH OWNER ACTIONS | R2 BLOCKED | R3 BLOCKED (2026-11-02; 3 High open: written clinician sign-off, figure sign-off, credential; see risk-register.md)
 
 ## Current stage
 ALL SIX PARTS WRITTEN AND ASSEMBLED (DRAFT_FOR_REVIEW), 2026-10-29. Design approved by the owner 2026-10-29. Open: named clinician's credential and clearance, owner decisions listed under Open issues, KDP previewer and proof copy, then Stage 8 /kdp-metadata and Stage 9 /kdp-upload-guide. Earlier note: ARCHITECTURE was approved; text was: architecture awaiting owner approval (outline.md, style-guide.md, book-bible.md written 2026-10-29; compliance rounds 1 to 3 complete, no BLOCK, bookkeeping fixes applied)

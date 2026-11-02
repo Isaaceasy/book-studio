@@ -55,5 +55,13 @@ Add the planned figures to one chapter so that they are accurate, rights-safe, l
 - A figure that fails inspection is regenerated or removed, never shipped.
 - Never claim an image was generated or checked when it was not.
 
+## V4 BATCH RUN (use this for a whole book in AUTOPILOT)
+1. Write `images/figure-plan.csv` from the outline allocation (columns: id,chapter,tier,route,aspect,subject,prompt,caption,alt; route SVG or AI).
+2. `python scripts/figure_pipeline.py plan books/<slug> --chunk 4` builds `images/batch-jobs.json` (negative rules appended to every prompt).
+3. Send one chunk at a time to `generate_image_batch`, then `jobs_wait`. On a 429 rate limit wait and retry only the failed ids; on a content-filter refusal reword neutrally. Download each chosen image, inspect it (step 7), and append every job to `images/jobs.csv` (figure,job_id,attempt,decision,date).
+4. `python scripts/figure_pipeline.py check books/<slug> --width-in <printed width>` (size and ppi; also reads images embedded in SVG); FAIL means regenerate or upscale.
+5. `python scripts/figure_pipeline.py log books/<slug>` writes `verification/figure-log.md`; `... sheet books/<slug>` writes the contact sheet for quick review.
+The script never calls HiggsField itself and never marks a reviewer decision; those stay with Claude and the expert.
+
 ## V3 UPGRADE: tiers, log and rate limits
 Assign every figure a tier (CLAUDE.md 11b item 5). Keep the Figure Log (figure, tier, brief, prompt, tool and model, job id, date, attempts, self-check, reviewer decision, caption, alt text). All labels and numbers are added outside the AI image. HiggsField notes from experience: retry on rate-limit errors; some prompts are refused by a content filter (reword neutrally); check laterality and pose (mirror or regenerate and have the expert confirm); hands, equipment and proportions need review; figure numbering follows order of appearance, so record any difference from the outline IDs. Up to 4 regeneration attempts for Tier 3 and 3 for others; a figure that cannot be made accurate is replaced by a table, schematic or text.

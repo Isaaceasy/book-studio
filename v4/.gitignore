@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+# Owner documents and third-party references stay local (rights); instructions and style cards are committed
+docs/reference-materials/*
+!docs/reference-materials/README.md
+# Real business data (ads and royalty exports) stays local
+reports/inbox/
+ads/analysis/

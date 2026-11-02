@@ -1,0 +1,46 @@
+# Cover brief read by scripts/cover_compose.py and scripts/preflight_cover.py
+# Fill from book.yaml, title-lab.md, KDP-metadata.md and the final build report. Never invent facts.
+
+title: "Exact Title As In KDP Metadata"
+subtitle: "Exact Subtitle As In KDP Metadata"
+author: "Author Name As On The Title Page"
+
+trim: "5x8"            # inches, width x height
+pages: 160             # FINAL page count from the assembled interior; the spine depends on it
+paper: "white"         # white | cream
+ink: "color"           # bw | color | premium   (must match the interior)
+paperback: true        # false = ebook cover only
+spine_text: true       # ignored when the page count is below KDP's spine-text minimum
+
+# Art made with HiggsField WITHOUT any text; paths relative to this file or absolute
+art:
+  front: "art/front-art.png"
+  back: "art/back-art.png"
+
+# Back cover copy comes from the approved description: factual, no reviews, no prices, no claims
+back_headline: "One factual headline"
+back_paragraphs:
+  - "First short paragraph from the approved description."
+  - "Second short paragraph."
+
+palette:
+  bg: "#14213d"
+  title: "#ffffff"
+  subtitle: "#e5e5e5"
+  author: "#ffd166"
+  accent: "#a31c2c"
+fonts:
+  title: "Inter"
+  body: "Inter"
+title_size_pt: 40
+subtitle_size_pt: 15
+author_size_pt: 15
+overlay_opacity: 0.35
+
+# Log of the art used (also keep covers/cover-log.md): tool, model, job id, date, prompt
+art_log:
+  - tool: "HiggsField"
+    model: ""
+    job_id: ""
+    date: ""
+    prompt: ""

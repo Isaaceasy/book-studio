@@ -108,3 +108,8 @@ NOTE 2026-10-29: the bullets that begin "Medical profile, en/US, 12 Parts", "50 
 - Cover files built from V3 (covers/): ebook-cover.jpg (1600 x 2560), paperback-wrap.pdf (10.6554 x 8.25 in, spine 0.4054 in for 180 pages), front-cover.png, thumbnail-test.png, wrap-preview.png, cover-brief.yaml, cover-log.md, art/. Mechanical preflight PASS; independent compliance review REVISE (no Amazon blocker; fixes applied, open items listed in covers/cover-log.md).
 - AI disclosure facts update: cover art is AI-generated (HiggsField gpt_image_2_5, upscaled with bytedance_image_upscale); disclose with the interior images.
 - OPEN: clinician check of the cover illustration; proof copy; KDP previewer check; title/author string match across all files (cover-match item from the title gate stays open until then).
+
+## 2026-11-03 Risk fixes (Claude side)
+- Trimmed the repeated sentence 'Giving medicines is outside many roles; follow your scope and medical direction.' from 12 places (kept 9 where a medicine is named). Clinician cleared the earlier text on the owner's word: tell the clinician. The final PDF was NOT rebuilt (pdftotext/poppler missing on this machine) and is older than the text; rebuild before upload.
+- EPUB built: final/emergency-nursing-fundamentals-ebook.epub (mechanical PASS only).
+- Cover style A review: REVISE (compliance/cover-style-a.md). Distance check recorded in covers/cover-log.md.

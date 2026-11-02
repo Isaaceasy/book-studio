@@ -58,7 +58,7 @@
 
 **Epiglottis.** A flap of tissue that covers the entrance to the larynx when swallowing.
 
-**Epinephrine (adrenaline).** The first-line medicine for anaphylaxis, carried by some patients in a prefilled auto-injector. Giving medicines is outside many roles; follow your scope and medical direction.
+**Epinephrine (adrenaline).** The first-line medicine for anaphylaxis, carried by some patients in a prefilled auto-injector.
 
 **Exposure.** The last step of the primary survey: exposing the body as needed to look for injuries while protecting dignity and warmth.
 
@@ -106,7 +106,7 @@
 
 [N]{.letter}
 
-**Naloxone.** A medicine that reverses the effects of an opioid overdose. Giving medicines is outside many roles; follow your scope and medical direction.
+**Naloxone.** A medicine that reverses the effects of an opioid overdose.
 
 **Non-rebreather mask.** An oxygen mask with a reservoir bag that delivers a high concentration of oxygen to a breathing patient.
 

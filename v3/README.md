@@ -30,7 +30,8 @@ Read `docs/genie-coverage.md` to see every GENIE capability and where it lives, 
 7. Expert review and the sign-off record (medical, engineering and other expert profiles).
 8. `/cover-design`, `/kdp-metadata`, `/kdp-upload-guide` (and `/publish-assist`).
 9. Growth when you want it: `/aplus-content`, `/edition-expansion`, `/launch-manager`, `/ads-manager`, `/review-monitor`, `/royalty-report`, `/author-brand`, `/audiobook-studio`, `/puzzle-studio`, `/coloring-studio`.
-10. `/lessons` at the end of every book.
+10. `/risk-analysis` at three gates (after titles, after assembly and covers, before the upload guide); it keeps `risk-register.md` and blocks the upload guide while any High risk is open.
+11. `/lessons` at the end of every book.
 Say "continue" any time; Claude reads the status file and proposes the next step.
 
 ## Where your files go

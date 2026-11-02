@@ -15,6 +15,8 @@ Give the owner one clear, accurate checklist for the KDP dashboard so nothing is
 
 1. **Open the live KDP help pages** (WebSearch / WebFetch, record the date): paperback and ebook setup, content guidelines, metadata guidelines, AI-generated content disclosure, manuscript and cover formatting, pricing and royalty, categories, ISBN. Use the current wording and numbers. If a page cannot be opened, mark the dependent step "verify on KDP".
 
+1b. **Risk gate (V3).** Run `/risk-analysis` checkpoint R3 first. If the result is BLOCKED (any High risk open), do not write the guide: report the blocking items. Otherwise copy the R3 owner-action list and every ACCEPTED Medium risk into the guide's pre-publish checklist.
+
 2. **Pre-publish gate.** List and tick, with evidence from the project: fact-check ledger has no open NEEDS-HUMAN; compliance verdict PASS on the manuscript; clinical/technical clearance obtained (state who and when, or "NOT DONE — do not publish as authoritative"); metadata passes; copyright and trademark screen done; no placeholders. If any item is not satisfied, the guide opens with a red warning section and the exact actions required.
 
 3. **Write `final/KDP-UPLOAD-GUIDE.md`** (and a Word copy for printing if the owner wants) with these sections:

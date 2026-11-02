@@ -57,6 +57,8 @@ Stages run in order. Never skip a stage. Never start a stage before the previous
 | 10 | UPLOAD GUIDE and release folder | `/kdp-upload-guide` | `final/KDP-upload-guide.md`, `release/` |
 | 11 | RETRO: what to improve in the framework | `/lessons` | `docs/lessons-learned.md` updated |
 
+**Risk gate (cross-cutting):** `/risk-analysis` keeps one `risk-register.md` per book and runs at three checkpoints: R1 after stage 2 (before the outline), R2 after stages 6 to 8 (before metadata), R3 immediately before stage 10. `/kdp-upload-guide` and `/publish-assist` must not start while the R3 result is BLOCKED (any High risk open).
+
 **Before stage 0 (optional):** `/niche-discovery` finds and scores book opportunities when the owner has no idea yet.
 **After stage 10 (growth and expansion, all optional, run when the owner asks):**
 
@@ -103,7 +105,7 @@ v3/
 └── books/<slug>/
     ├── book.yaml brief.md status.md status-archive.md run-log.md PROGRESS.md
     ├── cms-research.md competitors.csv product-spec.md
-    ├── title-lab.md title-check.md
+    ├── title-lab.md title-check.md risk-register.md
     ├── outline.md style-guide.md book-bible.md
     ├── verification-log.md  verification/<part>-ledger.md
     ├── compliance/  audits/  front/  chapters/  back/  images/  previews/

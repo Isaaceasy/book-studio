@@ -8,6 +8,7 @@ Source: `docs/reference-materials/GENIE_GUIDE.pdf` (Starter, Pro, Max tiers). V3
 | Full writing pipeline (plan and write chapter by chapter in the approved niche, structure, audience, language) | `/new-book`, `/outline-book`, `/write-chapter`, profiles, `CLAUDE.md` sections 2 to 9 | DONE (proved on the emergency nursing book) |
 | Trademark title gate (screen every title before drafting; develop safer alternatives) | `/title-lab` (generate, test, score), `/title-check`, `scripts/tm_scan.py` reading the owner's saved USPTO pages | DONE |
 | Premium color interiors (book-specific palette, readable hierarchy, page composition) | `/design-interior` + the interior library (`interiors/`, `/interior-library`) | DONE (library started with the owner's references) |
+| Risk analysis (what could go wrong before publishing; legal, policy, market, safety, rights, technical, account) | `/risk-analysis`, `templates/risk-register.md`, gates R1 R2 R3 (blocks `/kdp-upload-guide` and `/publish-assist`) | SKILL (added 2026-11-02, untested on a full book) |
 | Embedded interior images | `/interior-images`, HiggsField, image tiers and Figure Log (`CLAUDE.md` 11b) | DONE |
 | Editorial quality audits (readability, tone, structure, human-sounding prose, consistency, AI-style signals) | `/editorial-audit` with the editor agent; added audit for answer-key length bias | DONE |
 | Word + print-exact PDF previews per chapter | `/preview-chapter`, `scripts/bookbuild.py`, `scripts/docxbuild.py` | DONE |

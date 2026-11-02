@@ -16,6 +16,7 @@ GENIE Max "publishing automation: assists with publishing across supported platf
 `release/` assets (interior PDF or EPUB, covers, A+ content, metadata, AI-disclosure facts), `final/KDP-upload-guide.md`, `status.md`, `docs/kdp-specs.md`, `docs/lessons-learned.md`.
 
 ## Procedure
+0. **Risk gate.** Read `risk-register.md`. If the latest R3 result is BLOCKED or missing, stop and ask for `/risk-analysis`. Copy open owner actions into every platform checklist, and use the register's TECHNICAL, POLICY and ACCOUNT-OPS rows to fill `risks.md`.
 1. **Pick platforms** (ask once): which platforms and formats; whether the owner wants wide distribution or exclusivity programs (verify live what each requires; some programs restrict other distribution, state the trade-off honestly and let the owner decide).
 2. **Verify live** each platform's current requirements and record dates: file formats, cover specs, metadata fields and limits, pricing and royalty rules, AI-disclosure questions, content guidelines, tax and payment setup (the owner does these; Claude does not touch them).
 3. **Build the packet** `release/<platform>/`:
